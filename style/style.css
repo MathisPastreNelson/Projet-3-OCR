@@ -1,0 +1,72 @@
+body {
+    font-family: "roboto";
+}
+
+/*Classes globales*/
+
+.flexCenter {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.flexCenterColumn {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.grisFond {
+    background-color: #f2f2f2;
+}
+
+.grisProfondFond {
+    background-color: #ebebeb;
+}
+
+.policeGris {
+    color: #414141;
+    font-weight: bold;
+}
+
+
+
+/*Logo et Header*/
+
+.Bannière {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 50%;
+    padding: 15px;
+}
+
+.titre {
+    width: 70%;
+    font-size: 20px;
+    text-align: center;
+    margin: 0px;
+    padding-top: 30px;
+}
+
+.decription {
+    width: 80%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.exploreButton {
+    height: 50px;
+    padding: 10px 20px;
+    background: linear-gradient(0deg, #9356dc, #ff79da 100%);
+    border-radius: 30px;
+    border: none;
+    color: white;
+    margin-bottom: 50px;
+    box-shadow: #c4c4c4 0 7px 0 0 ;
+}
