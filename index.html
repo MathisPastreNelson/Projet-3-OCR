@@ -8,17 +8,19 @@
     <link rel="stylesheet" href="style/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Shrikhand&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/7198aa6036.js" crossorigin="anonymous"></script>
 </head>
+
+
 <body>
     <header>
-        <div class="Bannière">
+        <div class="bannière flexCenter">
         <img class="logo" src="./images/logo/ohmyfood.png" alt="Logo">
         </div>
-        <div class="grisFond">    
+        <div class="grisfond">    
             <div class="flexCenter grisProfondFond policeGris">
-                <i class="fa-solid fa-location-dot"></i>  
+                <i class="fa-solid fa-location-dot localisation"></i>  
                 <p>Paris, Belleville</p>  
             </div>
             <div class="flexCenterColumn">
@@ -27,6 +29,121 @@
                 <button class="exploreButton">Explorer nos restaurants</button>
             </div>
         </div>
+        
+        
+        <section class="fonctionnement">
+            <div class="flexCenterColumn">
+                <h2 class="titrePresentation">Fonctionnement</h2>
+                <div class="listChoix">
+                    <div class="rond">1</div>
+                    <div class="inputSymbol policeGris"><i class="fa-solid fa-mobile"></i></div>
+                    <div class="description">Choisissez un restaurant</div>
+                </div>
+                <div class="listChoix">
+                    <div class="rond">2</div>
+                    <div class="inputSymbol policeGris"><i class="fa-solid fa-list"></i></div>
+                    <div class="description">Composez votre menu</div>
+                </div>
+                <div class="listChoix">
+                    <div class="rond">3</div>
+                    <div class="inputSymbol policeGris"><i class="fa-solid fa-store"></i></div>
+                    <div class="description">Dégustez au restaurant</div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <section class="restaurants grisfond">
+            <h2 class="titrePresentation">Restaurants</h2>
+
+            <div class="cadreResto flexCenterColumn">
+                <div class="imgNouveauBloc">
+                    <p class="nouveauResto bold">Nouveau</p>
+                    <img class="imgResto" src="images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="" srcset="">
+                </div>
+                <div class="legendResto">
+                    <div class="textResto">
+                        <p class="marginzero bold">La palette du goût</p>
+                        <p class="marginzero">Ménilmontant</p>
+                    </div>
+                    <div class="coeur">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cadreResto">
+                <div class="imgNouveauBloc">
+                    <p class="nouveauResto bold">Nouveau</p>
+                    <img class="imgResto" src="images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg" alt="" srcset="">
+                </div>
+                <div class="legendResto">
+                    <div class="textResto">
+                        <p class="marginzero bold">La note enchantée</p>
+                        <p class="marginzero">Charonne</p>
+                    </div>
+                    <div class="coeur">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cadreResto">
+                <div class="imgNouveauBloc">
+                    <img class="imgResto" src="images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg" alt="" srcset="">
+                </div>
+                <div class="legendResto">
+                    <div class="textResto">
+                        <p class="marginzero bold">A la française</p>
+                        <p class="marginzero">Cité Rouge</p>
+                    </div>
+                    <div class="coeur">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cadreResto">
+                <div class="imgNouveauBloc">
+                    <img class="imgResto" src="images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg" alt="" srcset="">
+                </div>
+                <div class="legendResto">
+                    <div class="textResto">
+                        <p class="marginzero bold">Le délice des sens</p>
+                        <p class="marginzero">Folie-Méricourt</p>
+                    </div>
+                    <div class="coeur">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    <footer>
+            <div>
+                <p class="ohMyFoodFooter">ohmyfood</p>
+            </div>
+            <div>
+                <div class="sameLine">
+                    <i class="fa-solid fa-utensils marginRight"></i>
+                    <p>Proposez un restaurant</p>
+                </div>
+                <div class="sameLine">
+                    <i class="fa-solid fa-handshake-angle marginRight"></i>
+                    <p>Devenir partenaire</p>
+                </div>
+                <p>Mentions légales</p>
+                <p>Contact</p>
+            </div>
+    </footer>
+                
+
+            
+
+            
+        </section>
     </header>
     
 </body>
