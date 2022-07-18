@@ -1,0 +1,52 @@
+/*Fonctionnement Liste choix*/
+.fonctionnement {
+    margin-bottom: 60px;
+}
+
+.titrePresentation{
+    display: flex;
+    width: 90%;
+    padding-top: 40px;
+    font-size: 30px;
+    margin: 10px;
+}
+
+.listChoix {
+    background-color: #c4c4c4;
+    display: flex;
+    padding: 30px 0;
+    margin: 15px 0;
+    width: 90%;
+    border-radius: 20px;
+    align-items: center;
+    max-width: 500px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+
+.rond {
+    background-color: #9356dc;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    text-align: center;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-left: -15px;
+}
+
+.description {
+    display: flex;
+    justify-content: flex-start;
+    width: 70%;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.inputSymbol {
+    display: flex;
+    justify-content: center;
+    width: 20%;
+    font-size: 25px;
+}

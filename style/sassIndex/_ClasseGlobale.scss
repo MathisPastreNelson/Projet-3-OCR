@@ -1,0 +1,54 @@
+/*Classe Globale*/
+
+body {
+    margin: 0;
+}
+
+* {
+    font-family: "roboto";
+}
+
+.grisfond {
+    background-color: #f2f2f2;
+}
+
+.grisProfondFond {
+    background-color: #d1d1d1;
+}
+
+.policeGris {
+    color: #363636;
+    font-weight: bold;
+}
+
+.flexCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexCenterColumn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.marginzero {
+    margin: 2px;
+}
+
+.marginRight {
+    margin-right: 10px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.sameLine {
+    display: flex;
+    align-items: center;
+    margin:  15px 0;
+    max-height: 20px;
+}

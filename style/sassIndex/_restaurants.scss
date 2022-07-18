@@ -1,0 +1,65 @@
+/*Les restaurants*/
+.restaurants {
+    width: 100%;
+    padding-bottom: 60px;
+}
+
+.imgResto {
+    object-fit: cover;
+    height: 220px;
+    width: 100%;
+    justify-content: space-around;
+    display: flex;
+    border-radius: 20px 20px 0 0;
+}
+
+.cadreResto {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    margin: 20px 0 ;
+}
+
+.imgNouveauBloc{
+    width: 90%;
+    position: relative;
+}
+
+.nouveauResto {
+    position: absolute;
+    background-color: #56ffcf;
+    padding: 7px 15px;
+    right: 2%;
+    border-radius: 3px;
+    border: solid 1px black;
+    color: #485846;
+}
+
+.legendResto {
+    display: flex;
+    width: 90%;
+    font-size: 20px;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 0 0 20px 20px;
+}
+
+.textResto {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    font-size: 22px;
+}
+
+.coeur {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 25px;
+    color: #f2f2f2;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+    margin-right: 5%;
+}
