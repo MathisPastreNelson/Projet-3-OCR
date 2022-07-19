@@ -1,0 +1,73 @@
+/*Classe Globale*/
+body {
+  margin: 0;
+}
+
+* {
+  font-family: "roboto";
+}
+
+.grisProfondFond {
+  background-color: #d1d1d1;
+}
+
+.flexCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexCenterColumn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.marginzero {
+  margin: 2px;
+}
+
+.marginCinq {
+  margin: 5px 0;
+}
+
+.marginRight10 {
+  margin-right: 10px;
+}
+
+.marginRight5 {
+  margin-right: 5px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+/*Footer*/
+footer {
+  background-color: #474747;
+  color: white;
+  padding: 10px;
+}
+
+.ohMyFoodFooter {
+  font-family: "Shrikhand";
+  font-size: 20px;
+  padding-left: 20px;
+}
+
+.sameLine {
+  display: flex;
+  align-items: center;
+  margin: 5px 0;
+  max-height: 20px;
+}
+
+.texteFooter {
+  padding-bottom: 30px;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}/*# sourceMappingURL=styleResto.css.map */

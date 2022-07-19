@@ -12,6 +12,12 @@
 
 }
 
+.restaurantsGallerie {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
 .imgResto {
     object-fit: cover;
     height: 220px;
@@ -28,7 +34,7 @@
     flex-direction: column;
     align-items: center;
     border-radius: 20px;
-    margin: 20px 0 ;
+    padding: 20px 0 ;
 }
 
 .imgNouveauBloc{
@@ -79,4 +85,19 @@
     color: transparent;
     background-clip: text;
     text-shadow: none;
+}
+
+
+/*Responsive*/
+
+@media (min-width: 998px) {
+
+.restaurantsGallerie {
+    width: 100%;
+    flex-direction: row;
+    
+}
+.cadre12 {
+    width: 50%;
+}
 }
