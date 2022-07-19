@@ -255,6 +255,7 @@ body {
   align-items: center;
   border-radius: 20px;
   padding: 20px 0;
+  text-decoration: none;
 }
 
 .imgNouveauBloc {
@@ -279,6 +280,7 @@ body {
   justify-content: space-between;
   background-color: white;
   border-radius: 0 0 20px 20px;
+  color: black;
 }
 
 .textResto {

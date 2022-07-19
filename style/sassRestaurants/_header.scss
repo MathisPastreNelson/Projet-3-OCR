@@ -1,0 +1,64 @@
+/*Header de la carte des restaurants*/
+
+.retourLogo {
+    display: flex;
+    align-items: center;
+}
+
+.retour {
+    font-size: 20px;
+    margin-left: 5%;
+    position: absolute;
+    align-items: center;
+    color: $grisProfond;
+}
+
+.imgRestauMenus {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    position: relative;
+    
+}
+
+.presentationResto {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f2f2f2;
+    width: 90%;
+    border-radius: 50px 50px 0 0;
+    padding: 0px 5%;
+    position: absolute;
+    top: 280px;
+}
+    
+
+.titreResto {
+    font-family: "Shrikhand" ;
+    font-size: 30px;
+}
+
+
+
+/*Coeur + son animation*/
+
+
+.coeur {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 25px;
+    color: #f2f2f2;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+    margin-right: 5%;
+    cursor: pointer;
+    transition: all 500ms;
+}
+
+.coeur:hover {
+    background: linear-gradient(0deg, $roseSite, $violetSite 100%);
+    color: transparent;
+    background-clip: text;
+    text-shadow: none;
+}
