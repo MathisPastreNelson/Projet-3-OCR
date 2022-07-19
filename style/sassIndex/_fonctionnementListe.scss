@@ -3,27 +3,33 @@
     margin-bottom: 60px;
 }
 
-.titrePresentation{
-    display: flex;
-    width: 98%;
-    padding-top: 40px;
-    font-size: 30px;
-    margin: 10px;
+.titrePresentation {
+    width: 90%;
+    margin-top: 50px;
 }
 
 .listChoix {
-    background-color: #c4c4c4;
+    background-color: $grisFond;
     display: flex;
     padding: 30px 0;
     margin: 15px 0;
     width: 90%;
     border-radius: 20px;
     align-items: center;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+    transition: all 1s;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 30px -12px, rgba(0, 0, 0, 0.3) 0px 15px 6px -18px;
+}
+
+.listChoix:hover {
+    background-color: #d2bee9;
+}
+
+.listChoix:hover > .inputSymbol {
+    color: $violetSite;
 }
 
 .rond {
-    background-color: #9356dc;
+    background-color: $violetSite;
     width: 30px;
     height: 30px;
     min-width: 30px;
@@ -46,10 +52,4 @@
 .inputSymbol {
     font-size: 25px;
     padding: 0 20px;
-}
-
-.faAndText {
-    display: flex;
-    justify-content:flex-start;
-    width: 100%;
 }

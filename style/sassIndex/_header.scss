@@ -1,7 +1,16 @@
 /*Header*/
 
-.localisation {
-    margin-right: 20px;
+.geoLocalisation {
+    background-color: #e4e4e4;
+    color: $grisProfond;
+    box-shadow: rgba(0, 0, 0, 0.30) 0px 2px 4px 0px inset;
+}
+
+.geoLocalisation > p {
+    padding-left: 20px;
+    font-size: 20px;
+    color: $grisProfond;
+    font-weight: bold;
 }
 
 .titre {
@@ -16,16 +25,23 @@
     font-size: 20px;
     text-align: center;
     margin-bottom: 30px;
+    width: 80%;
 }
 
 .exploreButton {
-    height: 50px;
-    padding: 10px 20px;
-    background: linear-gradient(0deg, #9356dc, #ff79da 100%);
+    height: 55px;
+    padding:  20px 30px;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(0deg, $violetSite, $roseSite 100%);
     border-radius: 30px;
     border: none;
     color: white;
     margin-bottom: 50px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
-    font-size: 15px;
+    font-size: 18px;
+}
+
+.reservation {
+    background-color: $grisFond;
 }

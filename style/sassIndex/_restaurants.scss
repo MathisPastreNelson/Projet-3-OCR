@@ -2,6 +2,14 @@
 .restaurants {
     width: 100%;
     padding-bottom: 60px;
+    background-color: $grisFond;
+}
+
+.titreRestaurants {
+    padding-top: 45px;
+    margin: 5px 0;
+    width: 90%;
+
 }
 
 .imgResto {
@@ -30,7 +38,7 @@
 
 .nouveauResto {
     position: absolute;
-    background-color: #56ffcf;
+    background-color: $vertSite;
     padding: 7px 15px;
     right: 2%;
     border-radius: 3px;
@@ -62,4 +70,13 @@
     color: #f2f2f2;
     text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
     margin-right: 5%;
+    cursor: pointer;
+    transition: all 500ms;
+}
+
+.coeur:hover {
+    background: linear-gradient(0deg, $roseSite, $violetSite 100%);
+    color: transparent;
+    background-clip: text;
+    text-shadow: none;
 }
