@@ -130,9 +130,14 @@ body {
 
 .menuCard-title {
   text-transform: uppercase;
-  -webkit-text-decoration: underline #99E2D0 4px;
-          text-decoration: underline #99E2D0 4px;
   width: 90%;
+}
+
+.menuCard-title-underline {
+  display: flex;
+  height: 20px;
+  border-top: solid #99E2D0 4px;
+  width: 50px;
 }
 
 .menuCard-tripleCards {
@@ -149,13 +154,28 @@ body {
   height: 85px;
   padding: 0 5%;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 30px -12px, rgba(0, 0, 0, 0.3) 0px 15px 6px -18px;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
 }
 
 .menuCard-cardUnitaire-titleAndPrice {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.exploreButton {
+  height: 50px;
+  padding: 20px 50px;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(0deg, #9356DC, #FF79DA 100%);
+  border-radius: 30px;
+  border: none;
+  color: white;
+  margin-bottom: 70px;
+  margin-top: 20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+  font-size: 15px;
 }
 
 /*Footer*/
