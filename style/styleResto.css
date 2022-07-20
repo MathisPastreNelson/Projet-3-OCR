@@ -70,12 +70,16 @@ body {
   color: #1C2833;
 }
 
+.restoImgAndTitle {
+  position: relative;
+  width: 100%;
+}
+
 .imgRestauMenus {
   width: 100%;
   height: 300px;
   -o-object-fit: cover;
      object-fit: cover;
-  position: relative;
 }
 
 .presentationResto {
@@ -86,8 +90,8 @@ body {
   width: 90%;
   border-radius: 50px 50px 0 0;
   padding: 0px 5%;
-  position: absolute;
-  top: 280px;
+  bottom: 50px;
+  position: relative;
 }
 
 .titreResto {
@@ -178,6 +182,144 @@ body {
   font-size: 15px;
 }
 
+/*Responsive*/
+@media (min-width: 998px) {
+  .menuCard-tripleCards {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  .menuCard-cardUnitaire {
+    margin: 1%;
+    height: 95px;
+    padding: 0 1%;
+  }
+}
+.anim1 {
+  -webkit-animation: fadein 1s;
+          animation: fadein 1s;
+}
+
+@-webkit-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.anim2 {
+  -webkit-animation: fadein 1.5s;
+          animation: fadein 1.5s;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.anim3 {
+  -webkit-animation: fadein 2s;
+          animation: fadein 2s;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.anim4 {
+  -webkit-animation: fadein 2.5s;
+          animation: fadein 2.5s;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.anim5 {
+  -webkit-animation: fadein 3s;
+          animation: fadein 3s;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.anim6 {
+  -webkit-animation: fadein 3.5s;
+          animation: fadein 3.5s;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.anim7 {
+  -webkit-animation: fadein 4s;
+          animation: fadein 4s;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.anim8 {
+  -webkit-animation: fadein 4.5s;
+          animation: fadein 4.5s;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.anim9 {
+  -webkit-animation: fadein 5s;
+          animation: fadein 5s;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
 /*Footer*/
 footer {
   background-color: #474747;

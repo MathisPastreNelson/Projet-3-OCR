@@ -13,11 +13,15 @@
     color: $grisProfond;
 }
 
+.restoImgAndTitle {
+    position: relative;
+    width: 100%;
+}
+
 .imgRestauMenus {
     width: 100%;
     height: 300px;
     object-fit: cover;
-    position: relative;
     
 }
 
@@ -29,8 +33,8 @@
     width: 90%;
     border-radius: 50px 50px 0 0;
     padding: 0px 5%;
-    position: absolute;
-    top: 280px;
+    bottom: 50px;
+    position: relative;
 }
     
 
