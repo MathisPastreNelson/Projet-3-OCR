@@ -2,6 +2,8 @@ body {
     background-color: #f2f2f2;
 }
 
+/*Card Box*/
+
 .menuCard {
     width: 100%;
     display: flex;
@@ -9,6 +11,8 @@ body {
     justify-content: space-between;
     align-items: center;
 }
+
+/*titre et soulignement*/
 
 .menuCard-title {
     text-transform:uppercase;
@@ -22,9 +26,13 @@ body {
     width: 50px;
 }
 
+/*triple card box*/
+
 .menuCard-tripleCards {
     width: 90%;
 }
+
+/*Card unitaire*/
 
 .menuCard-cardUnitaire{
     background-color: white;
@@ -52,6 +60,8 @@ body {
     transform: rotate(360deg);
     transition-duration: 0.5s;
 }
+
+/*Texte des cartes*/
 
 .cardUnitaire__description {
     width: 100%;
@@ -137,15 +147,5 @@ body {
 
 }
 
-/*Animation Price Check*/
-
-.menuCard-cardUnitaire:hover > .menuCard-cardUnitaire-titleAndPrice >  .price {
-    transform: translateX(-5rem);
-}
-
-.menuCard-cardUnitaire:hover > .menuCard-cardUnitaire-titleAndPrice >  .menuCard-cardUnitaire-check {
-    transform: translateX(-5rem);
-
-}
 
 

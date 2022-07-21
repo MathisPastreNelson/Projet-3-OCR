@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /*Creation du loader*/
 .chargement {
   -webkit-animation: spin 2s linear;
@@ -96,8 +95,11 @@ body {
 }
 
 /*Logo*/
-.bannière {
+.banner {
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .logo {
@@ -107,13 +109,20 @@ body {
 }
 
 /*Header*/
-.geoLocalisation {
+.reservationBox {
+  background-color: #f2f2f2;
+}
+
+.reservationBox__geoLocalisation {
   background-color: #e4e4e4;
   color: #1C2833;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 2px 4px 0px inset;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.geoLocalisation > p {
+.reservationBox__geoLocalisation > p {
   padding-left: 20px;
   font-size: 20px;
   color: #1C2833;
@@ -126,6 +135,9 @@ body {
   font-size: 30px;
   margin: 0;
   margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .decription {
@@ -149,16 +161,12 @@ body {
   font-size: 18px;
 }
 
-.reservation {
-  background-color: #f2f2f2;
-}
-
 /*Fonctionnement Liste choix*/
-.fonctionnement {
+.FunctionBox {
   margin-bottom: 60px;
 }
 
-.titrePresentation {
+.FunctionBox__title {
   width: 90%;
   margin-top: 50px;
 }

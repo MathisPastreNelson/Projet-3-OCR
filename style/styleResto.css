@@ -54,8 +54,11 @@ body {
 }
 
 /*Logo*/
-.bannière {
+.banner {
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .logo {
@@ -132,6 +135,7 @@ body {
   background-color: #f2f2f2;
 }
 
+/*Card Box*/
 .menuCard {
   width: 100%;
   display: flex;
@@ -140,6 +144,7 @@ body {
   align-items: center;
 }
 
+/*titre et soulignement*/
 .menuCard-title {
   text-transform: uppercase;
   width: 90%;
@@ -152,10 +157,12 @@ body {
   width: 50px;
 }
 
+/*triple card box*/
 .menuCard-tripleCards {
   width: 90%;
 }
 
+/*Card unitaire*/
 .menuCard-cardUnitaire {
   background-color: white;
   display: flex;
@@ -182,6 +189,7 @@ body {
   transition-duration: 0.5s;
 }
 
+/*Texte des cartes*/
 .cardUnitaire__description {
   width: 100%;
   overflow: hidden;
@@ -257,15 +265,6 @@ body {
     margin: 1%;
   }
 }
-/*Animation Price Check*/
-.menuCard-cardUnitaire:hover > .menuCard-cardUnitaire-titleAndPrice > .price {
-  transform: translateX(-5rem);
-}
-
-.menuCard-cardUnitaire:hover > .menuCard-cardUnitaire-titleAndPrice > .menuCard-cardUnitaire-check {
-  transform: translateX(-5rem);
-}
-
 .anim1 {
   -webkit-animation: fadein 1s;
           animation: fadein 1s;

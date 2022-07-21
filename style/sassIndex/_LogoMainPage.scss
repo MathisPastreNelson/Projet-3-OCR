@@ -1,7 +1,10 @@
 /*Logo*/
 
-.bannière {
+.banner {
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .logo {
     width: 40%;
