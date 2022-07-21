@@ -87,6 +87,14 @@ body {
   font-weight: bold;
 }
 
+.textOverflow {
+  white-space: nowrap;
+  overflow: hidden;
+  z-index: 1;
+  text-overflow: ellipsis;
+  max-width: 100%;
+}
+
 /*Logo*/
 .bannière {
   width: 100%;

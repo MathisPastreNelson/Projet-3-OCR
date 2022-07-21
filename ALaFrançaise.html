@@ -4,14 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style/styleResto.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Shrikhand&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/7198aa6036.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style/styleResto.css">
     <title>A la française</title>
 </head>
 <body>
+
+    <!-- Header = Logo + Photo + Nom du restaurant + Coeur -->
+
     <header>
             <div class="retourLogo">
                 <a href="index.html" class="retour"><i class="fa-solid fa-arrow-left"></i></a>
@@ -20,7 +23,7 @@
                 </div>
             </div>
             <div class="restoImgAndTitle">
-                <img class="imgRestauMenus" src="images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg" alt="" srcset="">
+                <img class="imgRestauMenus" src="images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg" alt="Couverture du restaurant" srcset="">
                 <div class="presentationResto">
                     <h1 class="titreResto">A la française</h1>
                     <i class="fa-solid fa-heart coeur"></i>
@@ -28,104 +31,174 @@
             </div>
     </header>
 
+    <!-- LA CARTE DES MENUS -->
 
     <section class="menuCard">
-
+    <!-- Titre -->
         <div class="menuCard-title">
             <h3 class="menuCard-title marginCinq">Entrées</h3>
             <div class="menuCard-title-underline"></div>
         </div>
 
+    <!-- Entrées -->
         <div class="menuCard-tripleCards">
             <div class="menuCard-cardUnitaire anim1">
-                    <h3 class="marginCinq">Tartare de poulpe acidulé</h3>
-                <div class="menuCard-cardUnitaire-titleAndPrice">
-                    <p class="marginCinq">Aux zestes d'orange</p>
-                    <p class="marginCinq bold">25€</p>
+                <div class="cardUnitaire__description">
+                    <div class="description__text">
+                        <h3>Tartare de poulpe acidulé</h3>
+                        <p>Aux zestes d'orange</p>
+                    </div>
+                    <div class="description__price">
+                        <span>25€</span>
+                    </div>
+                </div>
+                <div class="cardUnitaire__checkIcon">
+                    <i class="fas fa-check"></i>
                 </div>
             </div>
 
-            <div class="menuCard-cardUnitaire anim2">
-                    <h3 class="marginCinq">Velouté de légumes d'antan</h3>
-                <div class="menuCard-cardUnitaire-titleAndPrice">
-                    <p class="marginCinq">Carotte, panais, topinambour</p>
-                    <p class="marginCinq bold">35€</p>
+            <div class="menuCard-cardUnitaire anim1">
+                <div class="cardUnitaire__description">
+                    <div class="description__text">
+                        <h3>Velouté de légumes d'antan</h3>
+                        <p>Carotte, panais, topinambour</p>
+                    </div>
+                    <div class="description__price">
+                        <span>35€</span>
+                    </div>
+                </div>
+                <div class="cardUnitaire__checkIcon">
+                    <i class="fas fa-check"></i>
                 </div>
             </div>
 
-            <div class="menuCard-cardUnitaire anim3">
-                    <h3 class="marginCinq">Soupe à l'oignon</h3>
-                <div class="menuCard-cardUnitaire-titleAndPrice">
-                    <p class="marginCinq">Revisitée</p>
-                    <p class="marginCinq bold">20€</p>
+            <div class="menuCard-cardUnitaire anim1">
+                <div class="cardUnitaire__description">
+                    <div class="description__text">
+                        <h3>Soupe à l'oignon</h3>
+                        <p>Revisitée</p>
+                    </div>
+                    <div class="description__price">
+                        <span>20€</span>
+                    </div>
+                </div>
+                <div class="cardUnitaire__checkIcon">
+                    <i class="fas fa-check"></i>
                 </div>
             </div>
         </div>
-
+    <!-- Titre -->
         <div class="menuCard-title">
             <h3 class="menuCard-title marginCinq">Plats</h3>
             <div class="menuCard-title-underline"></div>
         </div>
         
+        
+    <!-- Plats -->
         <div class="menuCard-tripleCards">
-            <div class="menuCard-cardUnitaire anim4">
-                    <h3 class="marginCinq">Coquilles Saint-Jacques</h3>
-                <div class="menuCard-cardUnitaire-titleAndPrice">
-                    <p class="marginCinq">Accompagnées d'une purée de panais</p>
-                    <p class="marginCinq bold">40€</p>
+            <div class="menuCard-cardUnitaire anim1">
+                <div class="cardUnitaire__description">
+                    <div class="description__text">
+                        <h3>Coquilles Saint-Jacques</h3>
+                        <p>Accompagnées d'une purée de panais</p>
+                    </div>
+                    <div class="description__price">
+                        <span>40€</span>
+                    </div>
+                </div>
+                <div class="cardUnitaire__checkIcon">
+                    <i class="fas fa-check"></i>
                 </div>
             </div>
 
-            <div class="menuCard-cardUnitaire anim5">
-                    <h3 class="marginCinq">Magret de canard</h3>
-                <div class="menuCard-cardUnitaire-titleAndPrice">
-                    <p class="marginCinq">Et parmentier de pommes de terre</p>
-                    <p class="marginCinq bold">35€</p>
+            <div class="menuCard-cardUnitaire anim1">
+                <div class="cardUnitaire__description">
+                    <div class="description__text">
+                        <h3>Magret de canard</h3>
+                        <p>Et parmentier de pommes de terre</p>
+                    </div>
+                    <div class="description__price">
+                        <span>35€</span>
+                    </div>
+                </div>
+                <div class="cardUnitaire__checkIcon">
+                    <i class="fas fa-check"></i>
                 </div>
             </div>
 
-            <div class="menuCard-cardUnitaire anim6">
-                    <h3 class="marginCinq">Pigeonneau d’Ille-et-Vilaine</h3>
-                <div class="menuCard-cardUnitaire-titleAndPrice">
-                    <p class="marginCinq">Sur son lit de gnocchis aux légumes</p>
-                    <p class="marginCinq bold">44€</p>
+            <div class="menuCard-cardUnitaire anim1">
+                <div class="cardUnitaire__description">
+                    <div class="description__text">
+                        <h3>Pigeonneau d’Ille-et-Vilaine</h3>
+                        <p>Sur son lit de gnocchis aux légumes</p>
+                    </div>
+                    <div class="description__price">
+                        <span>44€</span>
+                    </div>
+                </div>
+                <div class="cardUnitaire__checkIcon">
+                    <i class="fas fa-check"></i>
                 </div>
             </div>
         </div>
-
+    <!-- Titre -->
         <div class="menuCard-title">
             <h3 class="menuCard-title marginCinq">Desserts</h3>
             <div class="menuCard-title-underline"></div>
         </div>
-        
+  
+    <!-- Desserts -->
         <div class="menuCard-tripleCards">
-            <div class="menuCard-cardUnitaire anim7">
-                    <h3 class="marginCinq">Pétales de violettes glacés</h3>
-                <div class="menuCard-cardUnitaire-titleAndPrice">
-                    <p class="marginCinq">Et purée de noisettes</p>
-                    <p class="marginCinq bold">18€</p>
+            <div class="menuCard-cardUnitaire anim1">
+                <div class="cardUnitaire__description">
+                    <div class="description__text">
+                        <h3>Pétales de violettes glacés</h3>
+                        <p>Et purée de noisettes</p>
+                    </div>
+                    <div class="description__price">
+                        <span>18€</span>
+                    </div>
+                </div>
+                <div class="cardUnitaire__checkIcon">
+                    <i class="fas fa-check"></i>
                 </div>
             </div>
 
-            <div class="menuCard-cardUnitaire anim8">
-                    <h3 class="marginCinq">Fondant au chocolat</h3>
-                <div class="menuCard-cardUnitaire-titleAndPrice">
-                    <p class="marginCinq">Revisité</p>
-                    <p class="marginCinq bold">22€</p>
+            <div class="menuCard-cardUnitaire anim1">
+                <div class="cardUnitaire__description">
+                    <div class="description__text">
+                        <h3>Fondant au chocolat</h3>
+                        <p>Revisité</p>
+                    </div>
+                    <div class="description__price">
+                        <span>22€</span>
+                    </div>
+                </div>
+                <div class="cardUnitaire__checkIcon">
+                    <i class="fas fa-check"></i>
                 </div>
             </div>
 
-            <div class="menuCard-cardUnitaire anim9">
-                    <h3 class="marginCinq">Millefeuille croustillant</h3>
-                <div class="menuCard-cardUnitaire-titleAndPrice">
-                    <p class="marginCinq">Myrtilles et pâte d’amande</p>
-                    <p class="marginCinq bold">23€</p>
+            <div class="menuCard-cardUnitaire anim1">
+                <div class="cardUnitaire__description">
+                    <div class="description__text">
+                        <h3>Millefeuille croustillant</h3>
+                        <p>Myrtilles et pâte d’amande</p>
+                    </div>
+                    <div class="description__price">
+                        <span>23€</span>
+                    </div>
+                </div>
+                <div class="cardUnitaire__checkIcon">
+                    <i class="fas fa-check"></i>
                 </div>
             </div>
         </div>
+    <!-- Bouton Commande -->
         <button class="exploreButton">Commander</button>
-    </section>
 
+    </section>
+    <!-- Footer -->
     <footer>
         <div>
             <p class="ohMyFoodFooter">ohmyfood</p>
