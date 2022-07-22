@@ -430,7 +430,7 @@ body {
 /*titre et soulignement*/
 .menuCard-title {
   text-transform: uppercase;
-  width: 90%;
+  width: 80%;
 }
 
 .menuCard-title-underline {
@@ -543,6 +543,10 @@ body {
   .menuCard-tripleCards {
     display: flex;
     margin-bottom: 20px;
+  }
+  .menuCard-title {
+    text-transform: uppercase;
+    width: 88%;
   }
   .menuCard-cardUnitaire {
     margin: 1%;
