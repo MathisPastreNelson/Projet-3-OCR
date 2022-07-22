@@ -8,7 +8,7 @@
     margin-top: 50px;
 }
 
-.bouttonFonctionnement {
+.FunctionButton {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -31,21 +31,18 @@
     background-color: #d2bee9;
 }
 
-.listChoix:hover > .inputSymbol {
-    color: $violetSite;
+.listChoix:hover>.inputSymbol {
+    color: $primary-color;
 }
 
 .rond {
-    background-color: $violetSite;
+    background-color: $primary-color;
     width: 30px;
     height: 30px;
     min-width: 30px;
     border-radius: 30px;
-    text-align: center;
     color: white;
-    justify-content: center;
-    align-items: center;
-    display: flex;
+    @include flexCenter();
     margin-left: -15px;
 }
 
@@ -66,13 +63,12 @@
 /*Responsive*/
 
 @media (min-width: 998px) {
-.bouttonFonctionnement {
+    .FunctionButton {
         flex-direction: row;
         width: 90%;
-}
+    }
 
-.listChoix {
-    margin: 0 2%;
+    .listChoix {
+        margin: 0 2%;
+    }
 }
-}
-    

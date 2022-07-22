@@ -1,8 +1,8 @@
-@import "./sassIndex/_variables";
+@import "./sassCommun/_variables";
+@import "./sassCommun/_ClasseGlobale";
+@import "./sassCommun/_LogoMainPage";
+@import "./sassCommun/_footer";
 @import "./sassIndex/_Loading.scss";
-@import "./sassIndex/_ClasseGlobale";
-@import "./sassIndex/_LogoMainPage";
 @import "./sassIndex/_header";
 @import "./sassIndex/_fonctionnementListe";
 @import "./sassIndex/_restaurants";
-@import "./sassIndex/_footer";

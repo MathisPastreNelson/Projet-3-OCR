@@ -1,5 +1,5 @@
 body {
-    background-color: #f2f2f2;
+    background-color: $grisFond;
 }
 
 /*Card Box*/
@@ -15,14 +15,14 @@ body {
 /*titre et soulignement*/
 
 .menuCard-title {
-    text-transform:uppercase;
+    text-transform: uppercase;
     width: 90%;
 }
 
 .menuCard-title-underline {
     display: flex;
     height: 20px;
-    border-top: solid $vertSite 4px;   
+    border-top: solid $tertiary-color 4px;
     width: 50px;
 }
 
@@ -34,7 +34,7 @@ body {
 
 /*Card unitaire*/
 
-.menuCard-cardUnitaire{
+.menuCard-cardUnitaire {
     background-color: white;
     display: flex;
     justify-content: center;
@@ -79,7 +79,7 @@ body {
     overflow: hidden;
 }
 
-.description__text > * {
+.description__text>* {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -100,16 +100,14 @@ body {
 
 .cardUnitaire__checkIcon {
     width: 7rem;
-    background: #99e2d0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background: $tertiary-color;
+    @include flexCenter();
     margin-right: -7rem;
     transition: 0.5s ease;
 }
 
-.cardUnitaire__checkIcon > i {
-    color: #99e2d0;
+.cardUnitaire__checkIcon>i {
+    color: $tertiary-color;
     padding: 0.5rem;
     border-radius: 50%;
     background: white;
@@ -120,10 +118,10 @@ body {
 
 .exploreButton {
     height: 50px;
-    padding:  20px 50px;
+    padding: 20px 50px;
     display: flex;
     align-items: center;
-    background: linear-gradient(0deg, $violetSite, $roseSite 100%);
+    background: linear-gradient(0deg, $primary-color, $secondary-color 100%);
     border-radius: 30px;
     border: none;
     color: white;
@@ -136,16 +134,13 @@ body {
 /*Responsive*/
 
 @media (min-width: 998px) {
-.menuCard-tripleCards {
-    display: flex;
-    margin-bottom: 20px;
+    .menuCard-tripleCards {
+        display: flex;
+        margin-bottom: 20px;
+    }
+
+    .menuCard-cardUnitaire {
+        margin: 1%;
+    }
+
 }
-
-.menuCard-cardUnitaire {
-    margin: 1%;
-}
-
-}
-
-
-

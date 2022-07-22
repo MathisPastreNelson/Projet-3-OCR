@@ -1,3 +1,92 @@
+/*Classe Globale*/
+body {
+  margin: 0;
+}
+
+* {
+  font-family: "roboto", sans-serif;
+}
+
+.flexCenterColumn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.marginzero {
+  margin: 2px;
+}
+
+.marginCinq {
+  margin: 5px 0;
+}
+
+.marginRight10 {
+  margin-right: 10px;
+}
+
+.marginRight5 {
+  margin-right: 5px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+/*Logo*/
+.banner {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  width: 40%;
+  margin: 10px 0;
+  max-width: 220px;
+}
+
+/*Footer*/
+footer {
+  background-color: #474747;
+  color: white;
+  padding: 10px;
+}
+
+.ohMyFoodFooter {
+  font-family: "Shrikhand";
+  font-size: 20px;
+  padding-left: 20px;
+}
+
+.sameLine {
+  display: flex;
+  align-items: center;
+  margin: 5px 0;
+  max-height: 20px;
+}
+
+.texteFooter {
+  padding-bottom: 30px;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+/*Responsive*/
+@media (min-width: 998px) {
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .texteFooter {
+    align-items: center;
+  }
+}
 /*Creation du loader*/
 .chargement {
   -webkit-animation: spin 2s linear;
@@ -40,74 +129,6 @@
     opacity: 0;
   }
 }
-/*Classe Globale*/
-body {
-  margin: 0;
-}
-
-* {
-  font-family: "roboto";
-}
-
-.grisProfondFond {
-  background-color: #d1d1d1;
-}
-
-.flexCenter {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.flexCenterColumn {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
-.marginzero {
-  margin: 2px;
-}
-
-.marginCinq {
-  margin: 5px 0;
-}
-
-.marginRight10 {
-  margin-right: 10px;
-}
-
-.marginRight5 {
-  margin-right: 5px;
-}
-
-.bold {
-  font-weight: bold;
-}
-
-.textOverflow {
-  white-space: nowrap;
-  overflow: hidden;
-  z-index: 1;
-  text-overflow: ellipsis;
-  max-width: 100%;
-}
-
-/*Logo*/
-.banner {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.logo {
-  width: 40%;
-  margin: 10px 0;
-  max-width: 220px;
-}
-
 /*Header*/
 .reservationBox {
   background-color: #f2f2f2;
@@ -129,7 +150,7 @@ body {
   font-weight: bold;
 }
 
-.titre {
+.reservationBox__title {
   width: 70%;
   text-align: center;
   font-size: 30px;
@@ -140,7 +161,7 @@ body {
   align-items: center;
 }
 
-.decription {
+.reservationBox__describe {
   font-size: 20px;
   text-align: center;
   margin-bottom: 30px;
@@ -151,6 +172,7 @@ body {
   height: 55px;
   padding: 20px 30px;
   display: flex;
+  justify-content: center;
   align-items: center;
   background: linear-gradient(0deg, #9356DC, #FF79DA 100%);
   border-radius: 30px;
@@ -171,7 +193,7 @@ body {
   margin-top: 50px;
 }
 
-.bouttonFonctionnement {
+.FunctionButton {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -204,11 +226,10 @@ body {
   height: 30px;
   min-width: 30px;
   border-radius: 30px;
-  text-align: center;
   color: white;
+  display: flex;
   justify-content: center;
   align-items: center;
-  display: flex;
   margin-left: -15px;
 }
 
@@ -226,7 +247,7 @@ body {
 
 /*Responsive*/
 @media (min-width: 998px) {
-  .bouttonFonctionnement {
+  .FunctionButton {
     flex-direction: row;
     width: 90%;
   }
@@ -235,25 +256,25 @@ body {
   }
 }
 /*Les restaurants*/
-.restaurants {
+.restaurantsBox {
   width: 100%;
   padding-bottom: 60px;
   background-color: #f2f2f2;
 }
 
-.titreRestaurants {
+.restaurantsBox__title {
   padding-top: 45px;
   margin: 5px 0;
   width: 90%;
 }
 
-.restaurantsGallerie {
+.restaurantsBox__gallery {
   width: 100%;
   display: flex;
   flex-direction: column;
 }
 
-.imgResto {
+.restaurantsBox__gallery--img {
   -o-object-fit: cover;
      object-fit: cover;
   height: 220px;
@@ -328,50 +349,11 @@ body {
 
 /*Responsive*/
 @media (min-width: 998px) {
-  .restaurantsGallerie {
+  .restaurantsBox__gallery {
     width: 100%;
     flex-direction: row;
   }
   .cadre12 {
     width: 50%;
-  }
-}
-/*Footer*/
-footer {
-  background-color: #474747;
-  color: white;
-  padding: 10px;
-}
-
-.ohMyFoodFooter {
-  font-family: "Shrikhand";
-  font-size: 20px;
-  padding-left: 20px;
-}
-
-.sameLine {
-  display: flex;
-  align-items: center;
-  margin: 5px 0;
-  max-height: 20px;
-}
-
-.texteFooter {
-  padding-bottom: 30px;
-  padding-left: 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
-
-/*Responsive*/
-@media (min-width: 998px) {
-  footer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .texteFooter {
-    align-items: center;
   }
 }/*# sourceMappingURL=style.css.map */

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -21,26 +22,26 @@
         <div class="banner">
             <img class="logo" src="./images/logo/ohmyfood.png" alt="Logo">
         </div>
-        <div class="reservationBox">    
+        <div class="reservationBox">
             <div class="reservationBox__geoLocalisation">
-                <i class="fa-solid fa-location-dot localisation"></i>  
-                <p>Paris, Belleville</p>  
+                <i class="fa-solid fa-location-dot localisation"></i>
+                <p>Paris, Belleville</p>
             </div>
-    <!-- Titre / Explore button -->
+            <!-- Titre / Explore button -->
             <div class="flexCenterColumn">
-                <h1 class="titre">Réservez le menu qui vous convient</h1>
-                <p class="decription">Découvrez des restaurants d'exception séléctionnés par nos soins</p>
+                <h1 class="reservationBox__title">Réservez le menu qui vous convient</h1>
+                <p class="reservationBox__describe">Découvrez des restaurants d'exception séléctionnés par nos soins</p>
                 <button class="exploreButton">Explorer nos restaurants</button>
             </div>
         </div>
-    </header>       
-        
+    </header>
+
     <!-- Fonctionnement -->
-        <section class="FunctionBox">
-            <div class="flexCenterColumn">
+    <section class="FunctionBox">
+        <div class="flexCenterColumn">
             <h2 class="FunctionBox__title">Fonctionnement</h2>
-    <!-- Triple Boutons -->
-            <div class="bouttonFonctionnement">
+            <!-- Triple Boutons -->
+            <div class="FunctionButton">
                 <div class="listChoix">
                     <div class="rond">1</div>
                     <div class="inputSymbol"><i class="fa-solid fa-mobile"></i></div>
@@ -57,99 +58,106 @@
                     <div class="description">Dégustez au restaurant</div>
                 </div>
             </div>
-            </div>
-        </section>
+        </div>
+    </section>
 
     <!-- Restaurants -->
-        <section class="restaurants flexCenterColumn">
-            <h2 class="titreRestaurants">Restaurants</h2>
-        <div class="restaurantsGallerie">
-    <!-- Selection restaurant 1 et 2 -->
-        <div class="cadre12">
-            <div class="cadreResto flexCenterColumn">
-                <div class="imgNouveauBloc">
-                    <p class="nouveauResto bold">Nouveau</p>
-                    <img class="imgResto" src="images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="" srcset="">
-                </div>
-                <div class="legendResto">
-                    <div class="textResto">
-                        <p class="marginzero bold">La palette du goût</p>
-                        <p class="marginzero">Ménilmontant</p>
+    <section class="restaurantsBox flexCenterColumn">
+        <h2 class="restaurantsBox__title">Restaurants</h2>
+        <div class="restaurantsBox__gallery">
+            <!-- Selection restaurant 1 et 2 -->
+            <div class="cadre12">
+                <div class="cadreResto flexCenterColumn">
+                    <div class="imgNouveauBloc">
+                        <p class="nouveauResto bold">Nouveau</p>
+                        <img class="restaurantsBox__gallery--img"
+                            src="images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="Image du restaurant">
                     </div>
-                    <div class="coeur">
-                        <i class="fa-solid fa-heart"></i>
+                    <div class="legendResto">
+                        <div class="textResto">
+                            <p class="marginzero bold">La palette du goût</p>
+                            <p class="marginzero">Ménilmontant</p>
+                        </div>
+                        <div class="coeur">
+                            <i class="fa-solid fa-heart"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cadreResto">
+                    <div class="imgNouveauBloc">
+                        <p class="nouveauResto bold">Nouveau</p>
+                        <img class="restaurantsBox__gallery--img" src="images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg"
+                            alt="Image du restaurant">
+                    </div>
+                    <div class="legendResto">
+                        <div class="textResto">
+                            <p class="marginzero bold">La note enchantée</p>
+                            <p class="marginzero">Charonne</p>
+                        </div>
+                        <div class="coeur">
+                            <i class="fa-solid fa-heart"></i>
+                        </div>
                     </div>
                 </div>
             </div>
-
-            <div class="cadreResto">
-                <div class="imgNouveauBloc">
-                    <p class="nouveauResto bold">Nouveau</p>
-                    <img class="imgResto" src="images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg" alt="" srcset="">
-                </div>
-                <div class="legendResto">
-                    <div class="textResto">
-                        <p class="marginzero bold">La note enchantée</p>
-                        <p class="marginzero">Charonne</p>
+            <!-- Selection restaurant 3 et 4 -->
+            <div class="cadre12">
+                <a href="ALaFrançaise.html" class="cadreResto">
+                    <div class="imgNouveauBloc">
+                        <img class="restaurantsBox__gallery--img"
+                            src="images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg" alt="Image du restaurant">
                     </div>
-                    <div class="coeur">
-                        <i class="fa-solid fa-heart"></i>
+                    <div class="legendResto">
+                        <div class="textResto">
+                            <p class="marginzero bold">A la française</p>
+                            <p class="marginzero">Cité Rouge</p>
+                        </div>
+                        <div class="coeur">
+                            <i class="fa-solid fa-heart"></i>
+                        </div>
+                    </div>
+                </a>
+
+                <div class="cadreResto">
+                    <div class="imgNouveauBloc">
+                        <img class="restaurantsBox__gallery--img"
+                            src="images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg"
+                            alt="Image du restaurant">
+                    </div>
+                    <div class="legendResto">
+                        <div class="textResto">
+                            <p class="marginzero bold">Le délice des sens</p>
+                            <p class="marginzero">Folie-Méricourt</p>
+                        </div>
+                        <div class="coeur">
+                            <i class="fa-solid fa-heart"></i>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    <!-- Selection restaurant 3 et 4 -->
-        <div class="cadre12">
-            <a href="ALaFrançaise.html" class="cadreResto">
-                <div class="imgNouveauBloc">
-                    <img class="imgResto" src="images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg" alt="" srcset="">
-                </div>
-                <div class="legendResto">
-                    <div class="textResto">
-                        <p class="marginzero bold">A la française</p>
-                        <p class="marginzero">Cité Rouge</p>
-                    </div>
-                    <div class="coeur">
-                        <i class="fa-solid fa-heart"></i>
-                    </div>
-                </div>
-            </a>
-
-            <div class="cadreResto">
-                <div class="imgNouveauBloc">
-                    <img class="imgResto" src="images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg" alt="" srcset="">
-                </div>
-                <div class="legendResto">
-                    <div class="textResto">
-                        <p class="marginzero bold">Le délice des sens</p>
-                        <p class="marginzero">Folie-Méricourt</p>
-                    </div>
-                    <div class="coeur">
-                        <i class="fa-solid fa-heart"></i>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </section>
+    </section>
 
     <!-- Footer  -->
     <footer>
-            <div>
-                <p class="ohMyFoodFooter">ohmyfood</p>
+        <div>
+            <p class="ohMyFoodFooter">ohmyfood</p>
+        </div>
+        <div class="texteFooter">
+            <div class="sameLine">
+                <i class="fa-solid fa-utensils marginRight10"></i>
+                <p class="marginCinq">Proposez un restaurant</p>
             </div>
-            <div class="texteFooter">
-                <div class="sameLine">
-                    <i class="fa-solid fa-utensils marginRight10"></i>
-                    <p class="marginCinq">Proposez un restaurant</p>
-                </div>
-                <div class="sameLine">
-                    <i class="fa-solid fa-handshake-angle marginRight5"></i>
-                    <p class="marginCinq">Devenir partenaire</p>
-                </div>
-                <p class="marginCinq">Mentions légales</p>
-                <p class="marginCinq">Contact</p>
+            <div class="sameLine">
+                <i class="fa-solid fa-handshake-angle marginRight5"></i>
+                <p class="marginCinq">Devenir partenaire</p>
             </div>
+            <p class="marginCinq">Mentions légales</p>
+            <p class="marginCinq">Contact</p>
+        </div>
     </footer>
 
 </body>
+
 </html>

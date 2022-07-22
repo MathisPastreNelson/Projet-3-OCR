@@ -5,17 +5,7 @@ body {
 }
 
 * {
-  font-family: "roboto";
-}
-
-.grisProfondFond {
-  background-color: #d1d1d1;
-}
-
-.flexCenter {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  font-family: "roboto", sans-serif;
 }
 
 .flexCenterColumn {
@@ -45,14 +35,6 @@ body {
   font-weight: bold;
 }
 
-.textOverflow {
-  white-space: nowrap;
-  overflow: hidden;
-  z-index: 1;
-  text-overflow: ellipsis;
-  max-width: 100%;
-}
-
 /*Logo*/
 .banner {
   width: 100%;
@@ -67,13 +49,314 @@ body {
   max-width: 220px;
 }
 
+/*Footer*/
+footer {
+  background-color: #474747;
+  color: white;
+  padding: 10px;
+}
+
+.ohMyFoodFooter {
+  font-family: "Shrikhand";
+  font-size: 20px;
+  padding-left: 20px;
+}
+
+.sameLine {
+  display: flex;
+  align-items: center;
+  margin: 5px 0;
+  max-height: 20px;
+}
+
+.texteFooter {
+  padding-bottom: 30px;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+/*Responsive*/
+@media (min-width: 998px) {
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .texteFooter {
+    align-items: center;
+  }
+}
+/*Apparition des cartes menus*/
+.anim1 {
+  -webkit-animation: swing-in-bottom-fwd 200ms;
+          animation: swing-in-bottom-fwd 200ms;
+}
+
+@-webkit-keyframes swing-in-bottom-fwd {
+  0% {
+    transform: rotateX(100deg);
+    transform-origin: bottom;
+    opacity: 0;
+  }
+  100% {
+    transform: rotateX(0);
+    transform-origin: bottom;
+    opacity: 1;
+  }
+}
+@keyframes swing-in-bottom-fwd {
+  0% {
+    transform: rotateX(100deg);
+    transform-origin: bottom;
+    opacity: 0;
+  }
+  100% {
+    transform: rotateX(0);
+    transform-origin: bottom;
+    opacity: 1;
+  }
+}
+.anim2 {
+  -webkit-animation: swing-in-bottom-fwd 400ms;
+          animation: swing-in-bottom-fwd 400ms;
+}
+
+@-webkit-keyframes swing-in-bottom-fwd {
+  0% {
+    transform: rotateX(100deg);
+    transform-origin: bottom;
+    opacity: 0;
+  }
+  100% {
+    transform: rotateX(0);
+    transform-origin: bottom;
+    opacity: 1;
+  }
+}
+@keyframes swing-in-bottom-fwd {
+  0% {
+    transform: rotateX(100deg);
+    transform-origin: bottom;
+    opacity: 0;
+  }
+  100% {
+    transform: rotateX(0);
+    transform-origin: bottom;
+    opacity: 1;
+  }
+}
+.anim3 {
+  -webkit-animation: swing-in-bottom-fwd 600ms;
+          animation: swing-in-bottom-fwd 600ms;
+}
+
+@-webkit-keyframes swing-in-bottom-fwd {
+  0% {
+    transform: rotateX(100deg);
+    transform-origin: bottom;
+    opacity: 0;
+  }
+  100% {
+    transform: rotateX(0);
+    transform-origin: bottom;
+    opacity: 1;
+  }
+}
+@keyframes swing-in-bottom-fwd {
+  0% {
+    transform: rotateX(100deg);
+    transform-origin: bottom;
+    opacity: 0;
+  }
+  100% {
+    transform: rotateX(0);
+    transform-origin: bottom;
+    opacity: 1;
+  }
+}
+.anim4 {
+  -webkit-animation: swing-in-bottom-fwd 800ms;
+          animation: swing-in-bottom-fwd 800ms;
+}
+
+@-webkit-keyframes swing-in-bottom-fwd {
+  0% {
+    transform: rotateX(100deg);
+    transform-origin: bottom;
+    opacity: 0;
+  }
+  100% {
+    transform: rotateX(0);
+    transform-origin: bottom;
+    opacity: 1;
+  }
+}
+@keyframes swing-in-bottom-fwd {
+  0% {
+    transform: rotateX(100deg);
+    transform-origin: bottom;
+    opacity: 0;
+  }
+  100% {
+    transform: rotateX(0);
+    transform-origin: bottom;
+    opacity: 1;
+  }
+}
+.anim5 {
+  -webkit-animation: swing-in-bottom-fwd 1000ms;
+          animation: swing-in-bottom-fwd 1000ms;
+}
+
+@-webkit-keyframes swing-in-bottom-fwd {
+  0% {
+    transform: rotateX(100deg);
+    transform-origin: bottom;
+    opacity: 0;
+  }
+  100% {
+    transform: rotateX(0);
+    transform-origin: bottom;
+    opacity: 1;
+  }
+}
+@keyframes swing-in-bottom-fwd {
+  0% {
+    transform: rotateX(100deg);
+    transform-origin: bottom;
+    opacity: 0;
+  }
+  100% {
+    transform: rotateX(0);
+    transform-origin: bottom;
+    opacity: 1;
+  }
+}
+.anim6 {
+  -webkit-animation: swing-in-bottom-fwd 1200ms;
+          animation: swing-in-bottom-fwd 1200ms;
+}
+
+@-webkit-keyframes swing-in-bottom-fwd {
+  0% {
+    transform: rotateX(100deg);
+    transform-origin: bottom;
+    opacity: 0;
+  }
+  100% {
+    transform: rotateX(0);
+    transform-origin: bottom;
+    opacity: 1;
+  }
+}
+@keyframes swing-in-bottom-fwd {
+  0% {
+    transform: rotateX(100deg);
+    transform-origin: bottom;
+    opacity: 0;
+  }
+  100% {
+    transform: rotateX(0);
+    transform-origin: bottom;
+    opacity: 1;
+  }
+}
+.anim7 {
+  -webkit-animation: swing-in-bottom-fwd 1400ms;
+          animation: swing-in-bottom-fwd 1400ms;
+}
+
+@-webkit-keyframes swing-in-bottom-fwd {
+  0% {
+    transform: rotateX(100deg);
+    transform-origin: bottom;
+    opacity: 0;
+  }
+  100% {
+    transform: rotateX(0);
+    transform-origin: bottom;
+    opacity: 1;
+  }
+}
+@keyframes swing-in-bottom-fwd {
+  0% {
+    transform: rotateX(100deg);
+    transform-origin: bottom;
+    opacity: 0;
+  }
+  100% {
+    transform: rotateX(0);
+    transform-origin: bottom;
+    opacity: 1;
+  }
+}
+.anim8 {
+  -webkit-animation: swing-in-bottom-fwd 1600ms;
+          animation: swing-in-bottom-fwd 1600ms;
+}
+
+@-webkit-keyframes swing-in-bottom-fwd {
+  0% {
+    transform: rotateX(100deg);
+    transform-origin: bottom;
+    opacity: 0;
+  }
+  100% {
+    transform: rotateX(0);
+    transform-origin: bottom;
+    opacity: 1;
+  }
+}
+@keyframes swing-in-bottom-fwd {
+  0% {
+    transform: rotateX(100deg);
+    transform-origin: bottom;
+    opacity: 0;
+  }
+  100% {
+    transform: rotateX(0);
+    transform-origin: bottom;
+    opacity: 1;
+  }
+}
+.anim9 {
+  -webkit-animation: swing-in-bottom-fwd 1800ms;
+          animation: swing-in-bottom-fwd 1800ms;
+}
+
+@-webkit-keyframes swing-in-bottom-fwd {
+  0% {
+    transform: rotateX(100deg);
+    transform-origin: bottom;
+    opacity: 0;
+  }
+  100% {
+    transform: rotateX(0);
+    transform-origin: bottom;
+    opacity: 1;
+  }
+}
+@keyframes swing-in-bottom-fwd {
+  0% {
+    transform: rotateX(100deg);
+    transform-origin: bottom;
+    opacity: 0;
+  }
+  100% {
+    transform: rotateX(0);
+    transform-origin: bottom;
+    opacity: 1;
+  }
+}
 /*Header de la carte des restaurants*/
-.retourLogo {
+.backLogo {
   display: flex;
   align-items: center;
 }
 
-.retour {
+.back {
   font-size: 20px;
   margin-left: 5%;
   position: absolute;
@@ -81,19 +364,19 @@ body {
   color: #1C2833;
 }
 
-.restoImgAndTitle {
+.imgPresentationBox {
   position: relative;
   width: 100%;
 }
 
-.imgRestauMenus {
+.imgPresentation {
   width: 100%;
   height: 300px;
   -o-object-fit: cover;
      object-fit: cover;
 }
 
-.presentationResto {
+.textPresentation {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -223,7 +506,7 @@ body {
 /*Le check*/
 .cardUnitaire__checkIcon {
   width: 7rem;
-  background: #99e2d0;
+  background: #99E2D0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -232,7 +515,7 @@ body {
 }
 
 .cardUnitaire__checkIcon > i {
-  color: #99e2d0;
+  color: #99E2D0;
   padding: 0.5rem;
   border-radius: 50%;
   background: white;
@@ -263,170 +546,5 @@ body {
   }
   .menuCard-cardUnitaire {
     margin: 1%;
-  }
-}
-.anim1 {
-  -webkit-animation: fadein 1s;
-          animation: fadein 1s;
-}
-
-@-webkit-keyframes fadein {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
-@keyframes fadein {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-.anim2 {
-  -webkit-animation: fadein 1.5s;
-          animation: fadein 1.5s;
-}
-
-@keyframes fadein {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-.anim3 {
-  -webkit-animation: fadein 2s;
-          animation: fadein 2s;
-}
-
-@keyframes fadein {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-.anim4 {
-  -webkit-animation: fadein 2.5s;
-          animation: fadein 2.5s;
-}
-
-@keyframes fadein {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-.anim5 {
-  -webkit-animation: fadein 3s;
-          animation: fadein 3s;
-}
-
-@keyframes fadein {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-.anim6 {
-  -webkit-animation: fadein 3.5s;
-          animation: fadein 3.5s;
-}
-
-@keyframes fadein {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-.anim7 {
-  -webkit-animation: fadein 4s;
-          animation: fadein 4s;
-}
-
-@keyframes fadein {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-.anim8 {
-  -webkit-animation: fadein 4.5s;
-          animation: fadein 4.5s;
-}
-
-@keyframes fadein {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-.anim9 {
-  -webkit-animation: fadein 5s;
-          animation: fadein 5s;
-}
-
-@keyframes fadein {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-/*Footer*/
-footer {
-  background-color: #474747;
-  color: white;
-  padding: 10px;
-}
-
-.ohMyFoodFooter {
-  font-family: "Shrikhand";
-  font-size: 20px;
-  padding-left: 20px;
-}
-
-.sameLine {
-  display: flex;
-  align-items: center;
-  margin: 5px 0;
-  max-height: 20px;
-}
-
-.texteFooter {
-  padding-bottom: 30px;
-  padding-left: 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
-
-/*Responsive*/
-@media (min-width: 998px) {
-  footer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .texteFooter {
-    align-items: center;
   }
 }/*# sourceMappingURL=styleResto.css.map */
