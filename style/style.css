@@ -161,7 +161,6 @@ body {
 .reservationBox {
   background-color: #f2f2f2;
 }
-
 .reservationBox__geoLocalisation {
   background-color: #e4e4e4;
   color: #1C2833;
@@ -170,14 +169,6 @@ body {
   justify-content: center;
   align-items: center;
 }
-
-.reservationBox__geoLocalisation > p {
-  padding-left: 20px;
-  font-size: 20px;
-  color: #1C2833;
-  font-weight: bold;
-}
-
 .reservationBox__title {
   width: 70%;
   text-align: center;
@@ -188,7 +179,6 @@ body {
   justify-content: center;
   align-items: center;
 }
-
 .reservationBox__describe {
   font-size: 20px;
   text-align: center;
@@ -196,6 +186,14 @@ body {
   width: 80%;
 }
 
+.reservationBox__geoLocalisation > p {
+  padding-left: 20px;
+  font-size: 20px;
+  color: #1C2833;
+  font-weight: bold;
+}
+
+/*Bouton explorer nos restaurants*/
 .exploreButton {
   height: 55px;
   padding: 20px 30px;
@@ -220,13 +218,11 @@ body {
 .FunctionBox {
   margin-bottom: 60px;
 }
-
 .FunctionBox__title {
   width: 90%;
   margin-top: 50px;
 }
-
-.FunctionButton {
+.FunctionBox__buttons {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -281,7 +277,7 @@ body {
 
 /*Responsive*/
 @media (min-width: 998px) {
-  .FunctionButton {
+  .FunctionBox__buttons {
     flex-direction: row;
     width: 90%;
   }
@@ -295,19 +291,16 @@ body {
   padding-bottom: 60px;
   background-color: #f2f2f2;
 }
-
 .restaurantsBox__title {
   padding-top: 45px;
   margin: 5px 0;
   width: 90%;
 }
-
 .restaurantsBox__gallery {
   width: 100%;
   display: flex;
   flex-direction: column;
 }
-
 .restaurantsBox__gallery--img {
   -o-object-fit: cover;
      object-fit: cover;
