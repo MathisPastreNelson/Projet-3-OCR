@@ -46,6 +46,7 @@ body {
     margin-bottom: 25px;
     /*Pour caché le Check*/
     overflow: hidden;
+    cursor: pointer;
 }
 
 /*Animation du checkIcon*/
@@ -68,6 +69,14 @@ body {
     overflow: hidden;
     display: flex;
     max-width: 100%;
+}
+
+.cardUnitaire__description>.description__text>* {
+    margin: 1rem;
+}
+
+.cardUnitaire__description>.description__price {
+    font-weight: bold;
 }
 
 
@@ -129,6 +138,11 @@ body {
     margin-top: 20px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
     font-size: 15px;
+    cursor: pointer;
+}
+
+.exploreButton:hover {
+    @include button-hover();
 }
 
 /*Responsive*/

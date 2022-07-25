@@ -21,6 +21,7 @@ body {
 
 .marginCinq {
     margin: 5px 0;
+
 }
 
 .marginRight10 {
@@ -33,4 +34,11 @@ body {
 
 .bold {
     font-weight: bold;
+}
+
+//Decoration desactivé contact footer
+
+footer>div>a {
+    text-decoration: none;
+    color: white;
 }

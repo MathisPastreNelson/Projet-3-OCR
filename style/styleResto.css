@@ -35,6 +35,11 @@ body {
   font-weight: bold;
 }
 
+footer > div > a {
+  text-decoration: none;
+  color: white;
+}
+
 /*Logo*/
 .banner {
   width: 100%;
@@ -90,35 +95,6 @@ footer {
 }
 /*Apparition des cartes menus*/
 .anim1 {
-  -webkit-animation: swing-in-bottom-fwd 200ms;
-          animation: swing-in-bottom-fwd 200ms;
-}
-
-@-webkit-keyframes swing-in-bottom-fwd {
-  0% {
-    transform: rotateX(100deg);
-    transform-origin: bottom;
-    opacity: 0;
-  }
-  100% {
-    transform: rotateX(0);
-    transform-origin: bottom;
-    opacity: 1;
-  }
-}
-@keyframes swing-in-bottom-fwd {
-  0% {
-    transform: rotateX(100deg);
-    transform-origin: bottom;
-    opacity: 0;
-  }
-  100% {
-    transform: rotateX(0);
-    transform-origin: bottom;
-    opacity: 1;
-  }
-}
-.anim2 {
   -webkit-animation: swing-in-bottom-fwd 400ms;
           animation: swing-in-bottom-fwd 400ms;
 }
@@ -147,36 +123,7 @@ footer {
     opacity: 1;
   }
 }
-.anim3 {
-  -webkit-animation: swing-in-bottom-fwd 600ms;
-          animation: swing-in-bottom-fwd 600ms;
-}
-
-@-webkit-keyframes swing-in-bottom-fwd {
-  0% {
-    transform: rotateX(100deg);
-    transform-origin: bottom;
-    opacity: 0;
-  }
-  100% {
-    transform: rotateX(0);
-    transform-origin: bottom;
-    opacity: 1;
-  }
-}
-@keyframes swing-in-bottom-fwd {
-  0% {
-    transform: rotateX(100deg);
-    transform-origin: bottom;
-    opacity: 0;
-  }
-  100% {
-    transform: rotateX(0);
-    transform-origin: bottom;
-    opacity: 1;
-  }
-}
-.anim4 {
+.anim2 {
   -webkit-animation: swing-in-bottom-fwd 800ms;
           animation: swing-in-bottom-fwd 800ms;
 }
@@ -205,36 +152,7 @@ footer {
     opacity: 1;
   }
 }
-.anim5 {
-  -webkit-animation: swing-in-bottom-fwd 1000ms;
-          animation: swing-in-bottom-fwd 1000ms;
-}
-
-@-webkit-keyframes swing-in-bottom-fwd {
-  0% {
-    transform: rotateX(100deg);
-    transform-origin: bottom;
-    opacity: 0;
-  }
-  100% {
-    transform: rotateX(0);
-    transform-origin: bottom;
-    opacity: 1;
-  }
-}
-@keyframes swing-in-bottom-fwd {
-  0% {
-    transform: rotateX(100deg);
-    transform-origin: bottom;
-    opacity: 0;
-  }
-  100% {
-    transform: rotateX(0);
-    transform-origin: bottom;
-    opacity: 1;
-  }
-}
-.anim6 {
+.anim3 {
   -webkit-animation: swing-in-bottom-fwd 1200ms;
           animation: swing-in-bottom-fwd 1200ms;
 }
@@ -263,36 +181,7 @@ footer {
     opacity: 1;
   }
 }
-.anim7 {
-  -webkit-animation: swing-in-bottom-fwd 1400ms;
-          animation: swing-in-bottom-fwd 1400ms;
-}
-
-@-webkit-keyframes swing-in-bottom-fwd {
-  0% {
-    transform: rotateX(100deg);
-    transform-origin: bottom;
-    opacity: 0;
-  }
-  100% {
-    transform: rotateX(0);
-    transform-origin: bottom;
-    opacity: 1;
-  }
-}
-@keyframes swing-in-bottom-fwd {
-  0% {
-    transform: rotateX(100deg);
-    transform-origin: bottom;
-    opacity: 0;
-  }
-  100% {
-    transform: rotateX(0);
-    transform-origin: bottom;
-    opacity: 1;
-  }
-}
-.anim8 {
+.anim4 {
   -webkit-animation: swing-in-bottom-fwd 1600ms;
           animation: swing-in-bottom-fwd 1600ms;
 }
@@ -321,9 +210,125 @@ footer {
     opacity: 1;
   }
 }
+.anim5 {
+  -webkit-animation: swing-in-bottom-fwd 2000ms;
+          animation: swing-in-bottom-fwd 2000ms;
+}
+
+@-webkit-keyframes swing-in-bottom-fwd {
+  0% {
+    transform: rotateX(100deg);
+    transform-origin: bottom;
+    opacity: 0;
+  }
+  100% {
+    transform: rotateX(0);
+    transform-origin: bottom;
+    opacity: 1;
+  }
+}
+@keyframes swing-in-bottom-fwd {
+  0% {
+    transform: rotateX(100deg);
+    transform-origin: bottom;
+    opacity: 0;
+  }
+  100% {
+    transform: rotateX(0);
+    transform-origin: bottom;
+    opacity: 1;
+  }
+}
+.anim6 {
+  -webkit-animation: swing-in-bottom-fwd 2400ms;
+          animation: swing-in-bottom-fwd 2400ms;
+}
+
+@-webkit-keyframes swing-in-bottom-fwd {
+  0% {
+    transform: rotateX(100deg);
+    transform-origin: bottom;
+    opacity: 0;
+  }
+  100% {
+    transform: rotateX(0);
+    transform-origin: bottom;
+    opacity: 1;
+  }
+}
+@keyframes swing-in-bottom-fwd {
+  0% {
+    transform: rotateX(100deg);
+    transform-origin: bottom;
+    opacity: 0;
+  }
+  100% {
+    transform: rotateX(0);
+    transform-origin: bottom;
+    opacity: 1;
+  }
+}
+.anim7 {
+  -webkit-animation: swing-in-bottom-fwd 2800ms;
+          animation: swing-in-bottom-fwd 2800ms;
+}
+
+@-webkit-keyframes swing-in-bottom-fwd {
+  0% {
+    transform: rotateX(100deg);
+    transform-origin: bottom;
+    opacity: 0;
+  }
+  100% {
+    transform: rotateX(0);
+    transform-origin: bottom;
+    opacity: 1;
+  }
+}
+@keyframes swing-in-bottom-fwd {
+  0% {
+    transform: rotateX(100deg);
+    transform-origin: bottom;
+    opacity: 0;
+  }
+  100% {
+    transform: rotateX(0);
+    transform-origin: bottom;
+    opacity: 1;
+  }
+}
+.anim8 {
+  -webkit-animation: swing-in-bottom-fwd 3200ms;
+          animation: swing-in-bottom-fwd 3200ms;
+}
+
+@-webkit-keyframes swing-in-bottom-fwd {
+  0% {
+    transform: rotateX(100deg);
+    transform-origin: bottom;
+    opacity: 0;
+  }
+  100% {
+    transform: rotateX(0);
+    transform-origin: bottom;
+    opacity: 1;
+  }
+}
+@keyframes swing-in-bottom-fwd {
+  0% {
+    transform: rotateX(100deg);
+    transform-origin: bottom;
+    opacity: 0;
+  }
+  100% {
+    transform: rotateX(0);
+    transform-origin: bottom;
+    opacity: 1;
+  }
+}
 .anim9 {
-  -webkit-animation: swing-in-bottom-fwd 1800ms;
-          animation: swing-in-bottom-fwd 1800ms;
+  -webkit-animation: swing-in-bottom-fwd 3600ms;
+          animation: swing-in-bottom-fwd 3600ms;
 }
 
 @-webkit-keyframes swing-in-bottom-fwd {
@@ -414,6 +419,11 @@ footer {
   text-shadow: none;
 }
 
+@media (min-width: 998px) {
+  .imgPresentation {
+    height: 450px;
+  }
+}
 body {
   background-color: #f2f2f2;
 }
@@ -458,6 +468,7 @@ body {
   margin-bottom: 25px;
   /*Pour caché le Check*/
   overflow: hidden;
+  cursor: pointer;
 }
 
 /*Animation du checkIcon*/
@@ -478,6 +489,14 @@ body {
   overflow: hidden;
   display: flex;
   max-width: 100%;
+}
+
+.cardUnitaire__description > .description__text > * {
+  margin: 1rem;
+}
+
+.cardUnitaire__description > .description__price {
+  font-weight: bold;
 }
 
 .description__text {
@@ -536,6 +555,11 @@ body {
   margin-top: 20px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
   font-size: 15px;
+  cursor: pointer;
+}
+
+.exploreButton:hover {
+  background: linear-gradient(0deg, #ae80e5 0%, #fface8 100%);
 }
 
 /*Responsive*/

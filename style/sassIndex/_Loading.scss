@@ -46,3 +46,20 @@
         opacity: 0;
     }
 }
+
+
+/*disparition du body pendant le loader*/
+
+body {
+    animation: fadein 4s;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0
+    }
+
+    to {
+        opacity: 1
+    }
+}

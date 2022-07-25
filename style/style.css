@@ -34,6 +34,11 @@ body {
   font-weight: bold;
 }
 
+footer > div > a {
+  text-decoration: none;
+  color: white;
+}
+
 /*Logo*/
 .banner {
   width: 100%;
@@ -129,6 +134,29 @@ footer {
     opacity: 0;
   }
 }
+/*disparition du body pendant le loader*/
+body {
+  -webkit-animation: fadein 4s;
+          animation: fadein 4s;
+}
+
+@-webkit-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
 /*Header*/
 .reservationBox {
   background-color: #f2f2f2;
@@ -181,6 +209,11 @@ footer {
   margin-bottom: 50px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
   font-size: 18px;
+  cursor: pointer;
+}
+
+.exploreButton:hover {
+  background: linear-gradient(0deg, #ae80e5 0%, #fface8 100%);
 }
 
 /*Fonctionnement Liste choix*/
@@ -210,6 +243,7 @@ footer {
   align-items: center;
   transition: all 1s;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 30px -12px, rgba(0, 0, 0, 0.3) 0px 15px 6px -18px;
+  cursor: pointer;
 }
 
 .listChoix:hover {

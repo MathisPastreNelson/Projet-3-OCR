@@ -66,3 +66,9 @@
     background-clip: text;
     text-shadow: none;
 }
+
+@media (min-width: 998px) {
+    .imgPresentation {
+        height: 450px;
+    }
+}
