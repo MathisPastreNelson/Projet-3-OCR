@@ -49,18 +49,7 @@ body {
     cursor: pointer;
 }
 
-/*Animation du checkIcon*/
 
-.menuCard-cardUnitaire:hover .cardUnitaire__checkIcon {
-    margin-right: 0;
-    transition-duration: 0.5s;
-    transition-timing-function: ease;
-}
-
-.menuCard-cardUnitaire:hover i {
-    transform: rotate(360deg);
-    transition-duration: 0.5s;
-}
 
 /*Texte des cartes*/
 
@@ -123,6 +112,19 @@ body {
     transition-duration: 0.5s;
 }
 
+/*Animation du checkIcon*/
+
+.menuCard-cardUnitaire:hover .cardUnitaire__checkIcon {
+    margin-right: 0;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+}
+
+.menuCard-cardUnitaire:hover i {
+    transform: rotate(720deg);
+    transition-duration: 0.5s;
+}
+
 /*Bouton Commander*/
 
 .exploreButton {
@@ -136,9 +138,11 @@ body {
     color: white;
     margin-bottom: 70px;
     margin-top: 20px;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 20px 10px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
     font-size: 15px;
     cursor: pointer;
+    transition: 500ms;
+
 }
 
 .exploreButton:hover {

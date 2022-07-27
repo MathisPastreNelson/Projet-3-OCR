@@ -29,6 +29,10 @@
         opacity: 1;
     }
 
+    80% {
+        opacity: .9;
+    }
+
     100% {
         -webkit-transform: rotate(360deg);
         opacity: 0;
@@ -41,6 +45,10 @@
         opacity: 1;
     }
 
+    80% {
+        opacity: .9;
+    }
+
     100% {
         transform: rotate(360deg);
         opacity: 0;
@@ -50,16 +58,20 @@
 
 /*disparition du body pendant le loader*/
 
-body {
-    animation: fadein 4s;
+.Disparitionbox {
+    animation: fadein 3s;
 }
 
 @keyframes fadein {
-    from {
-        opacity: 0
+    0% {
+        opacity: 0;
     }
 
-    to {
-        opacity: 1
+    80% {
+        opacity: 0.3;
+    }
+
+    100% {
+        opacity: 1;
     }
 }

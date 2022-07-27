@@ -16,148 +16,155 @@
 <!-- Le loader -->
 <div class="chargement"></div>
 
+
 <body>
-    <!-- Header "logo / localisation" -->
-    <header>
-        <div class="banner">
-            <img class="logo" src="./images/logo/ohmyfood.png" alt="Logo">
-        </div>
-        <div class="reservationBox">
-            <div class="reservationBox__geoLocalisation">
-                <i class="fa-solid fa-location-dot localisation"></i>
-                <p>Paris, Belleville</p>
+    <section class="Disparitionbox">
+        <!-- Header "logo / localisation" -->
+        <header>
+            <div class="banner">
+                <img class="logo" src="./images/logo/ohmyfood.png" alt="Logo">
             </div>
-            <!-- Titre / Explore button -->
+            <div class="reservationBox">
+                <div class="reservationBox__geoLocalisation">
+                    <i class="fa-solid fa-location-dot localisation"></i>
+                    <p>Paris, Belleville</p>
+                </div>
+                <!-- Titre / Explore button -->
+                <div class="flexCenterColumn">
+                    <h1 class="reservationBox__title">Réservez le menu qui vous convient</h1>
+                    <p class="reservationBox__describe">Découvrez des restaurants d'exception séléctionnés par nos soins
+                    </p>
+                    <button class="exploreButton">Explorer nos restaurants</button>
+                </div>
+            </div>
+        </header>
+
+        <!-- Fonctionnement -->
+        <section class="FunctionBox">
             <div class="flexCenterColumn">
-                <h1 class="reservationBox__title">Réservez le menu qui vous convient</h1>
-                <p class="reservationBox__describe">Découvrez des restaurants d'exception séléctionnés par nos soins</p>
-                <button class="exploreButton">Explorer nos restaurants</button>
+                <h2 class="FunctionBox__title">Fonctionnement</h2>
+                <!-- Triple Boutons -->
+                <div class="FunctionBox__buttons">
+                    <div class="listChoix">
+                        <div class="rond">1</div>
+                        <div class="inputSymbol"><i class="fa-solid fa-mobile"></i></div>
+                        <div class="description">Choisissez un restaurant</div>
+                    </div>
+                    <div class="listChoix">
+                        <div class="rond">2</div>
+                        <div class="inputSymbol"><i class="fa-solid fa-list"></i></div>
+                        <div class="description">Composez votre menu</div>
+                    </div>
+                    <div class="listChoix">
+                        <div class="rond">3</div>
+                        <div class="inputSymbol"><i class="fa-solid fa-store"></i></div>
+                        <div class="description">Dégustez au restaurant</div>
+                    </div>
+                </div>
             </div>
-        </div>
-    </header>
+        </section>
 
-    <!-- Fonctionnement -->
-    <section class="FunctionBox">
-        <div class="flexCenterColumn">
-            <h2 class="FunctionBox__title">Fonctionnement</h2>
-            <!-- Triple Boutons -->
-            <div class="FunctionBox__buttons">
-                <div class="listChoix">
-                    <div class="rond">1</div>
-                    <div class="inputSymbol"><i class="fa-solid fa-mobile"></i></div>
-                    <div class="description">Choisissez un restaurant</div>
+        <!-- Restaurants -->
+        <section class="restaurantsBox flexCenterColumn">
+            <h2 class="restaurantsBox__title">Restaurants</h2>
+            <div class="restaurantsBox__gallery">
+                <!-- Selection restaurant 1 et 2 -->
+                <div class="cadre12">
+                    <div class="cadreResto">
+                        <div class="imgNouveauBloc">
+                            <p class="nouveauResto bold">Nouveau</p>
+                            <img class="restaurantsBox__gallery--img"
+                                src="images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg"
+                                alt="Image du restaurant">
+                        </div>
+                        <div class="legendResto">
+                            <div class="textResto">
+                                <p class="marginzero bold">La palette du goût</p>
+                                <p class="marginzero">Ménilmontant</p>
+                            </div>
+                            <div class="coeur">
+                                <i class="fa-solid fa-heart"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cadreResto">
+                        <div class="imgNouveauBloc">
+                            <p class="nouveauResto bold">Nouveau</p>
+                            <img class="restaurantsBox__gallery--img"
+                                src="images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg" alt="Image du restaurant">
+                        </div>
+                        <div class="legendResto">
+                            <div class="textResto">
+                                <p class="marginzero bold">La note enchantée</p>
+                                <p class="marginzero">Charonne</p>
+                            </div>
+                            <div class="coeur">
+                                <i class="fa-solid fa-heart"></i>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="listChoix">
-                    <div class="rond">2</div>
-                    <div class="inputSymbol"><i class="fa-solid fa-list"></i></div>
-                    <div class="description">Composez votre menu</div>
-                </div>
-                <div class="listChoix">
-                    <div class="rond">3</div>
-                    <div class="inputSymbol"><i class="fa-solid fa-store"></i></div>
-                    <div class="description">Dégustez au restaurant</div>
+                <!-- Selection restaurant 3 et 4 -->
+                <div class="cadre12">
+                    <a href="ALaFrançaise.html" class="cadreResto">
+                        <div class="imgNouveauBloc">
+                            <img class="restaurantsBox__gallery--img"
+                                src="images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg" alt="Image du restaurant">
+                        </div>
+                        <div class="legendResto">
+                            <div class="textResto">
+                                <p class="marginzero bold">À la française</p>
+                                <p class="marginzero">Cité Rouge</p>
+                            </div>
+                            <div class="coeur">
+                                <i class="fa-solid fa-heart"></i>
+                            </div>
+                        </div>
+                    </a>
+
+                    <div class="cadreResto">
+                        <div class="imgNouveauBloc">
+                            <img class="restaurantsBox__gallery--img"
+                                src="images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg"
+                                alt="Image du restaurant">
+                        </div>
+                        <div class="legendResto">
+                            <div class="textResto">
+                                <p class="marginzero bold">Le délice des sens</p>
+                                <p class="marginzero">Folie-Méricourt</p>
+                            </div>
+                            <div class="coeur">
+                                <i class="fa-solid fa-heart"></i>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
+        </section>
+
+        <!-- Footer  -->
+        <footer>
+            <div>
+                <p class="ohMyFoodFooter">ohmyfood</p>
+            </div>
+            <div class="texteFooter">
+                <div class="sameLine">
+                    <i class="fa-solid fa-utensils marginRight10"></i>
+                    <p class="marginCinq">Proposez un restaurant</p>
+                </div>
+                <div class="sameLine">
+                    <i class="fa-solid fa-handshake-angle marginRight5"></i>
+                    <p class="marginCinq">Devenir partenaire</p>
+                </div>
+                <p class="marginCinq">Mentions légales</p>
+                <a href="mailto:mathis.pastre@outlook.com" class="marginCinq">Contact</a>
+            </div>
+        </footer>
+
     </section>
-
-    <!-- Restaurants -->
-    <section class="restaurantsBox flexCenterColumn">
-        <h2 class="restaurantsBox__title">Restaurants</h2>
-        <div class="restaurantsBox__gallery">
-            <!-- Selection restaurant 1 et 2 -->
-            <div class="cadre12">
-                <div class="cadreResto">
-                    <div class="imgNouveauBloc">
-                        <p class="nouveauResto bold">Nouveau</p>
-                        <img class="restaurantsBox__gallery--img"
-                            src="images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="Image du restaurant">
-                    </div>
-                    <div class="legendResto">
-                        <div class="textResto">
-                            <p class="marginzero bold">La palette du goût</p>
-                            <p class="marginzero">Ménilmontant</p>
-                        </div>
-                        <div class="coeur">
-                            <i class="fa-solid fa-heart"></i>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="cadreResto">
-                    <div class="imgNouveauBloc">
-                        <p class="nouveauResto bold">Nouveau</p>
-                        <img class="restaurantsBox__gallery--img" src="images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg"
-                            alt="Image du restaurant">
-                    </div>
-                    <div class="legendResto">
-                        <div class="textResto">
-                            <p class="marginzero bold">La note enchantée</p>
-                            <p class="marginzero">Charonne</p>
-                        </div>
-                        <div class="coeur">
-                            <i class="fa-solid fa-heart"></i>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Selection restaurant 3 et 4 -->
-            <div class="cadre12">
-                <a href="ALaFrançaise.html" class="cadreResto">
-                    <div class="imgNouveauBloc">
-                        <img class="restaurantsBox__gallery--img"
-                            src="images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg" alt="Image du restaurant">
-                    </div>
-                    <div class="legendResto">
-                        <div class="textResto">
-                            <p class="marginzero bold">A la française</p>
-                            <p class="marginzero">Cité Rouge</p>
-                        </div>
-                        <div class="coeur">
-                            <i class="fa-solid fa-heart"></i>
-                        </div>
-                    </div>
-                </a>
-
-                <div class="cadreResto">
-                    <div class="imgNouveauBloc">
-                        <img class="restaurantsBox__gallery--img"
-                            src="images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg"
-                            alt="Image du restaurant">
-                    </div>
-                    <div class="legendResto">
-                        <div class="textResto">
-                            <p class="marginzero bold">Le délice des sens</p>
-                            <p class="marginzero">Folie-Méricourt</p>
-                        </div>
-                        <div class="coeur">
-                            <i class="fa-solid fa-heart"></i>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer  -->
-    <footer>
-        <div>
-            <p class="ohMyFoodFooter">ohmyfood</p>
-        </div>
-        <div class="texteFooter">
-            <div class="sameLine">
-                <i class="fa-solid fa-utensils marginRight10"></i>
-                <p class="marginCinq">Proposez un restaurant</p>
-            </div>
-            <div class="sameLine">
-                <i class="fa-solid fa-handshake-angle marginRight5"></i>
-                <p class="marginCinq">Devenir partenaire</p>
-            </div>
-            <p class="marginCinq">Mentions légales</p>
-            <a href="mailto:mathis.pastre@outlook.com" class="marginCinq">Contact</a>
-        </div>
-    </footer>
-
 </body>
+
+
 
 </html>

@@ -26,6 +26,11 @@ footer {
     align-items: flex-start;
 }
 
+footer>div>a {
+    text-decoration: none;
+    color: white;
+}
+
 /*Responsive*/
 
 @media (min-width: 998px) {
