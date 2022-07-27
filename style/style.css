@@ -290,7 +290,7 @@ footer > div > a {
 }
 
 /*Responsive*/
-@media (min-width: 998px) {
+@media (min-width: 768px) {
   .FunctionBox__buttons {
     flex-direction: row;
     width: 90%;
