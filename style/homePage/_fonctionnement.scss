@@ -1,0 +1,77 @@
+/*Fonctionnement Liste choix*/
+.FunctionBox {
+    margin-bottom: 60px;
+
+
+    &__title {
+        width: 90%;
+        margin-top: 50px;
+    }
+
+    &__buttons {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+}
+
+.listChoix {
+    height: 80px;
+    background-color: $grisFond;
+    display: flex;
+    margin: 15px 0;
+    width: 90%;
+    border-radius: 20px;
+    align-items: center;
+    transition: all 1s;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 20px 20px -12px, rgba(0, 0, 0, 0.3) 0px 15px 6px -18px;
+    cursor: pointer;
+}
+
+.listChoix:hover {
+    background-color: #d2bee9;
+}
+
+.listChoix:hover>.inputSymbol {
+    color: $primary-color;
+}
+
+.rond {
+    background-color: $primary-color;
+    width: 30px;
+    height: 30px;
+    min-width: 30px;
+    border-radius: 30px;
+    color: white;
+    @include flexCenter();
+    margin-left: -15px;
+}
+
+.description {
+    display: flex;
+    font-size: 20px;
+    font-weight: bold;
+    justify-content: center;
+}
+
+.inputSymbol {
+    font-size: 25px;
+    padding: 0 20px;
+}
+
+
+
+/*Responsive*/
+
+@media (min-width: 768px) {
+    .FunctionBox__buttons {
+        flex-direction: row;
+        width: 90%;
+    }
+
+    .listChoix {
+        margin: 0 2%;
+    }
+}

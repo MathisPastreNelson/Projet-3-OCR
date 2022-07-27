@@ -1,0 +1,209 @@
+body {
+    background-color: $grisFond;
+}
+
+/*Card Box*/
+
+.menuCard {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    /*titre et soulignement*/
+
+    &__title {
+        text-transform: uppercase;
+        width: 80%;
+    }
+
+    &__title--underline {
+        display: flex;
+        height: 20px;
+        border-top: solid $tertiary-color 4px;
+        width: 50px;
+    }
+}
+
+/*triple card box*/
+
+.menuCard__tripleCards {
+    width: 90%;
+}
+
+/*Card unitaire*/
+
+.cardUnitaire {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    border-radius: 15px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 15px 15px -12px, rgba(0, 0, 0, 0.3) 0px 15px 6px -18px;
+    margin-bottom: 25px;
+    /*Pour caché le Check*/
+    overflow: hidden;
+    cursor: pointer;
+
+    /*Texte des cartes*/
+
+    &__description {
+        width: 100%;
+        overflow: hidden;
+        display: flex;
+        max-width: 100%;
+    }
+}
+
+.description__text {
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    margin-left: 1rem;
+}
+
+/*Le texte se coupe ici avec le checkIcon */
+
+.cardUnitaire__description>.description__text>* {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+}
+
+/*Propriété du contenus des cards*/
+
+.description__text>h2 {
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.description__text>p {
+    color: $grisProfond;
+    font-size: 17px;
+    margin-top: 8px;
+}
+
+
+.description__price {
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    max-width: 100%;
+    justify-content: flex-end;
+    align-items: flex-end;
+    display: flex;
+    font-weight: bold;
+}
+
+/*Le check*/
+
+.cardUnitaire__checkIcon {
+    width: 7rem;
+    background: $tertiary-color;
+    @include flexCenter();
+    margin-right: -7rem;
+    transition: 0.5s ease;
+}
+
+.cardUnitaire__checkIcon>i {
+    color: $tertiary-color;
+    padding: 0.5rem;
+    border-radius: 50%;
+    background: white;
+    transition-duration: 0.5s;
+}
+
+/*apparition de la checkIcon*/
+
+.cardUnitaire:hover .cardUnitaire__checkIcon {
+    margin-right: 0;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+}
+
+/*rotation de la checkIcon*/
+
+.cardUnitaire:hover i {
+    transform: rotate(720deg);
+    transition-duration: 0.5s;
+}
+
+/*Bouton Commander*/
+
+.exploreButton {
+    height: 50px;
+    padding: 20px 50px;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(0deg, $primary-color, $secondary-color 100%);
+    border-radius: 30px;
+    border: none;
+    color: white;
+    margin-bottom: 70px;
+    margin-top: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 20px 10px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 500ms;
+
+}
+
+.exploreButton:hover {
+    @include button-hover();
+}
+
+/*Responsive*/
+
+
+@media (min-width: 768px) {
+    .menuCard__tripleCards {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 1rem 0;
+    }
+
+    .cardUnitaire {
+        width: 40%;
+    }
+
+    .menuCard__title {
+        width: 15%;
+        margin: 0;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (min-width: 998px) {
+    .menuCard__tripleCards {
+        display: flex;
+        margin-bottom: 20px;
+        width: 90%;
+        flex-wrap: nowrap;
+        margin: 0 0 50px 0;
+    }
+
+    .menuCard__title {
+        width: 88%;
+    }
+
+    .cardUnitaire {
+        margin: 1%;
+        width: 90%;
+    }
+
+    .menuCard__title {
+        width: 90%;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+}

@@ -1,0 +1,39 @@
+/*Classe Globale*/
+
+body {
+    margin: 0;
+}
+
+* {
+    font-family: "roboto", sans-serif;
+}
+
+.flexCenterColumn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.marginZero {
+    margin: 2px;
+}
+
+.marginCinq {
+    margin: 5px 0;
+
+}
+
+.marginRight10 {
+    margin-right: 10px;
+}
+
+.marginRight5 {
+    margin-right: 5px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+//Decoration desactivé contact footer
