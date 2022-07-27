@@ -26,13 +26,13 @@
         margin-bottom: 30px;
         width: 80%;
     }
-}
 
-.reservationBox__geoLocalisation>p {
-    padding-left: 20px;
-    font-size: 20px;
-    color: $grisProfond;
-    font-weight: bold;
+    &__geoLocalisation>p {
+        padding-left: 20px;
+        font-size: 20px;
+        color: $grisProfond;
+        font-weight: bold;
+    }
 }
 
 /*Bouton explorer nos restaurants*/

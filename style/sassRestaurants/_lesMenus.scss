@@ -10,25 +10,25 @@ body {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-}
 
-/*titre et soulignement*/
+    /*titre et soulignement*/
 
-.menuCard-title {
-    text-transform: uppercase;
-    width: 80%;
-}
+    &__title {
+        text-transform: uppercase;
+        width: 80%;
+    }
 
-.menuCard-title-underline {
-    display: flex;
-    height: 20px;
-    border-top: solid $tertiary-color 4px;
-    width: 50px;
+    &__title--underline {
+        display: flex;
+        height: 20px;
+        border-top: solid $tertiary-color 4px;
+        width: 50px;
+    }
 }
 
 /*triple card box*/
 
-.menuCard-tripleCards {
+.menuCard__tripleCards {
     width: 90%;
 }
 
@@ -41,8 +41,8 @@ body {
     margin-left: auto;
     margin-right: auto;
     width: 90%;
-    border-radius: 20px;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 30px -12px, rgba(0, 0, 0, 0.3) 0px 15px 6px -18px;
+    border-radius: 15px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 20px 20px -12px, rgba(0, 0, 0, 0.3) 0px 15px 6px -18px;
     margin-bottom: 25px;
     /*Pour caché le Check*/
     overflow: hidden;
@@ -60,8 +60,18 @@ body {
     max-width: 100%;
 }
 
+.description__text {
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    margin-left: 1rem;
+}
+
 .cardUnitaire__description>.description__text>* {
-    margin: 1rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
 }
 
 .cardUnitaire__description>.description__price {
@@ -70,18 +80,17 @@ body {
 
 
 
-.description__text {
-    width: 100%;
-    margin-left: 1rem;
-    max-width: 100%;
-    overflow: hidden;
+
+
+.description__text>h2 {
+    font-size: 20px;
+    margin-bottom: 8px;
 }
 
-.description__text>* {
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    max-width: 100%;
+.description__text>p {
+    color: $grisProfond;
+    font-size: 17px;
+    margin-top: 8px;
 }
 
 
@@ -152,12 +161,12 @@ body {
 /*Responsive*/
 
 @media (min-width: 998px) {
-    .menuCard-tripleCards {
+    .menuCard__tripleCards {
         display: flex;
         margin-bottom: 20px;
     }
 
-    .menuCard-title {
+    .menuCard__title {
         width: 88%;
     }
 

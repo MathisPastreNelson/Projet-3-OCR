@@ -14,7 +14,7 @@ body {
   flex-direction: column;
 }
 
-.marginzero {
+.marginZero {
   margin: 2px;
 }
 
@@ -94,8 +94,8 @@ footer > div > a {
 }
 /*Creation du loader*/
 .chargement {
-  -webkit-animation: spin 2s linear;
-  animation: spin 2s linear;
+  -webkit-animation: spin 3s linear;
+  animation: spin 3s linear;
   opacity: 0;
   border: 30px solid #FF79DA;
   width: 100px;
@@ -142,8 +142,8 @@ footer > div > a {
 }
 /*disparition du body pendant le loader*/
 .Disparitionbox {
-  -webkit-animation: fadein 3s;
-          animation: fadein 3s;
+  -webkit-animation: fadein 3.2s;
+          animation: fadein 3.2s;
 }
 
 @-webkit-keyframes fadein {
@@ -197,7 +197,6 @@ footer > div > a {
   margin-bottom: 30px;
   width: 80%;
 }
-
 .reservationBox__geoLocalisation > p {
   padding-left: 20px;
   font-size: 20px;
@@ -253,7 +252,7 @@ footer > div > a {
   border-radius: 20px;
   align-items: center;
   transition: all 1s;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 30px -12px, rgba(0, 0, 0, 0.3) 0px 15px 6px -18px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 20px 20px -12px, rgba(0, 0, 0, 0.3) 0px 15px 6px -18px;
   cursor: pointer;
 }
 
@@ -305,11 +304,47 @@ footer > div > a {
   width: 100%;
   padding-bottom: 60px;
   background-color: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 .restaurantsBox__title {
   padding-top: 45px;
   margin: 5px 0;
   width: 90%;
+}
+.restaurantsBox__cadreResto {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 15px;
+  padding: 20px 0;
+  text-decoration: none;
+}
+.restaurantsBox__cadreResto--imgNouveauBloc {
+  width: 90%;
+  position: relative;
+}
+.restaurantsBox__cadreResto--nouveauResto {
+  position: absolute;
+  background-color: #99E2D0;
+  padding: 7px 15px;
+  right: 2%;
+  border-radius: 3px;
+  color: #485846;
+}
+.restaurantsBox__cadreResto--legendResto {
+  display: flex;
+  width: 90%;
+  font-size: 20px;
+  justify-content: space-between;
+  background-color: white;
+  border-radius: 0 0 15px 15px;
+  color: black;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 10px 10px -12px, rgba(0, 0, 0, 0.3) 0px 15px 6px -18px;
 }
 .restaurantsBox__gallery {
   width: 100%;
@@ -323,50 +358,19 @@ footer > div > a {
   width: 100%;
   justify-content: space-around;
   display: flex;
-  border-radius: 20px 20px 0 0;
+  border-radius: 15px 15px 0 0;
 }
 
-.cadreResto {
-  width: 100%;
-  justify-content: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  border-radius: 20px;
-  padding: 20px 0;
-  text-decoration: none;
-}
-
-.imgNouveauBloc {
-  width: 90%;
-  position: relative;
-}
-
-.nouveauResto {
-  position: absolute;
-  background-color: #99E2D0;
-  padding: 7px 15px;
-  right: 2%;
-  border-radius: 3px;
-  border: solid 1px black;
-  color: #485846;
-}
-
-.legendResto {
-  display: flex;
-  width: 90%;
-  font-size: 20px;
-  justify-content: space-between;
-  background-color: white;
-  border-radius: 0 0 20px 20px;
-  color: black;
-}
-
+/*La partie texte de la carte restaurants*/
 .textResto {
   display: flex;
   flex-direction: column;
   margin: 10px;
   font-size: 22px;
+}
+
+.textResto > .textResto__grey {
+  color: #1C2833;
 }
 
 .coeur {
@@ -377,11 +381,10 @@ footer > div > a {
   color: #f2f2f2;
   text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
   margin-right: 5%;
-  cursor: pointer;
-  transition: all 500ms;
+  transition: 300ms;
 }
 
-.coeur:hover {
+.coeur:active {
   background: linear-gradient(0deg, #FF79DA, #9356DC 100%);
   color: transparent;
   -webkit-background-clip: text;

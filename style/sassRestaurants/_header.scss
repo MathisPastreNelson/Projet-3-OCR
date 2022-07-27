@@ -57,10 +57,10 @@
     text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
     margin-right: 5%;
     cursor: pointer;
-    transition: all 400ms;
+    transition: 300ms;
 }
 
-.coeur:hover {
+.coeur:active {
     background: linear-gradient(0deg, $secondary-color, $primary-color 100%);
     color: transparent;
     background-clip: text;

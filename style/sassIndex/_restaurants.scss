@@ -3,6 +3,10 @@
     width: 100%;
     padding-bottom: 60px;
     background-color: $grisFond;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 
     &__title {
         padding-top: 45px;
@@ -10,6 +14,43 @@
         width: 90%;
 
     }
+
+    &__cadreResto {
+        width: 100%;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 15px;
+        padding: 20px 0;
+        text-decoration: none;
+
+        &--imgNouveauBloc {
+            width: 90%;
+            position: relative;
+        }
+
+        &--nouveauResto {
+            position: absolute;
+            background-color: $tertiary-color;
+            padding: 7px 15px;
+            right: 2%;
+            border-radius: 3px;
+            color: #485846;
+        }
+
+        &--legendResto {
+            display: flex;
+            width: 90%;
+            font-size: 20px;
+            justify-content: space-between;
+            background-color: white;
+            border-radius: 0 0 15px 15px;
+            color: black;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 10px 10px -12px, rgba(0, 0, 0, 0.3) 0px 15px 6px -18px;
+        }
+    }
+
 
     &__gallery {
         width: 100%;
@@ -23,45 +64,12 @@
         width: 100%;
         justify-content: space-around;
         display: flex;
-        border-radius: 20px 20px 0 0;
+        border-radius: 15px 15px 0 0;
     }
 }
 
-.cadreResto {
-    width: 100%;
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border-radius: 20px;
-    padding: 20px 0;
-    text-decoration: none;
-}
 
-.imgNouveauBloc {
-    width: 90%;
-    position: relative;
-}
-
-.nouveauResto {
-    position: absolute;
-    background-color: $tertiary-color;
-    padding: 7px 15px;
-    right: 2%;
-    border-radius: 3px;
-    border: solid 1px black;
-    color: #485846;
-}
-
-.legendResto {
-    display: flex;
-    width: 90%;
-    font-size: 20px;
-    justify-content: space-between;
-    background-color: white;
-    border-radius: 0 0 20px 20px;
-    color: black;
-}
+/*La partie texte de la carte restaurants*/
 
 .textResto {
     display: flex;
@@ -70,24 +78,30 @@
     font-size: 22px;
 }
 
+.textResto>.textResto__grey {
+    color: $grisProfond;
+}
+
 .coeur {
     display: flex;
     align-items: center;
     justify-content: flex-end;
     font-size: 25px;
-    color: #f2f2f2;
+    color: $grisFond;
     text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
     margin-right: 5%;
-    cursor: pointer;
-    transition: all 500ms;
+    transition: 300ms;
 }
 
-.coeur:hover {
+
+
+.coeur:active {
     background: linear-gradient(0deg, $secondary-color, $primary-color 100%);
     color: transparent;
     background-clip: text;
     text-shadow: none;
 }
+
 
 
 /*Responsive*/
