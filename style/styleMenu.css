@@ -418,6 +418,7 @@ footer > div > a {
   -webkit-background-clip: text;
           background-clip: text;
   text-shadow: none;
+  cursor: pointer;
 }
 
 @media (min-width: 768px) {

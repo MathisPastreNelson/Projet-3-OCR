@@ -387,7 +387,7 @@ footer > div > a {
   background-color: transparent;
 }
 
-.coeur:focus {
+.coeur:hover {
   background: linear-gradient(0deg, #FF79DA, #9356DC 100%);
   color: transparent;
   -webkit-background-clip: text;
