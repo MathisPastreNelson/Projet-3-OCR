@@ -369,8 +369,8 @@ footer > div > a {
   font-size: 22px;
 }
 
-.textResto > .textResto__grey {
-  color: #1C2833;
+.textResto > h3 {
+  font-size: 22px;
 }
 
 /*Coeur + son animation*/
