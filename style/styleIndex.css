@@ -373,18 +373,21 @@ footer > div > a {
   color: #1C2833;
 }
 
+/*Coeur + son animation*/
 .coeur {
   display: flex;
   align-items: center;
   justify-content: flex-end;
   font-size: 25px;
-  color: #f2f2f2;
+  color: white;
   text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
   margin-right: 5%;
   transition: 300ms;
+  border: none;
+  background-color: transparent;
 }
 
-.coeur:active {
+.coeur:focus {
   background: linear-gradient(0deg, #FF79DA, #9356DC 100%);
   color: transparent;
   -webkit-background-clip: text;

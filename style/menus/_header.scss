@@ -56,15 +56,19 @@
     color: $grisFond;
     text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
     margin-right: 5%;
-    cursor: pointer;
     transition: 300ms;
+    border: none;
+    background-color: transparent;
+
 }
 
-.coeur:active {
+.coeur:focus {
+
     background: linear-gradient(0deg, $secondary-color, $primary-color 100%);
     color: transparent;
     background-clip: text;
     text-shadow: none;
+
 }
 
 @media (min-width: 768px) {

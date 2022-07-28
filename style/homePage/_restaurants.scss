@@ -82,20 +82,23 @@
     color: $grisProfond;
 }
 
+/*Coeur + son animation*/
+
 .coeur {
     display: flex;
     align-items: center;
     justify-content: flex-end;
     font-size: 25px;
-    color: $grisFond;
+    color: white;
     text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
     margin-right: 5%;
     transition: 300ms;
+    border: none;
+    background-color: transparent;
 }
 
+.coeur:focus {
 
-
-.coeur:active {
     background: linear-gradient(0deg, $secondary-color, $primary-color 100%);
     color: transparent;
     background-clip: text;
