@@ -398,6 +398,7 @@ footer > div > a {
   color: #1C2833;
 }
 
+/*Image et titre du restaurants*/
 .imgPresentationBox {
   position: relative;
   width: 100%;
@@ -441,7 +442,7 @@ footer > div > a {
   background-color: transparent;
 }
 
-.coeur:focus {
+.coeur:hover {
   background: linear-gradient(0deg, #FF79DA, #9356DC 100%);
   color: transparent;
   -webkit-background-clip: text;
@@ -495,7 +496,7 @@ body {
   border-radius: 15px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 15px 15px -12px, rgba(0, 0, 0, 0.3) 0px 15px 6px -18px;
   margin-bottom: 25px;
-  /*Pour caché le Check*/
+  /*Pour caché le checkIcon de la carte*/
   overflow: hidden;
   cursor: pointer;
   /*Texte des cartes*/
@@ -514,7 +515,7 @@ body {
   margin-left: 1rem;
 }
 
-/*Le texte se coupe ici avec le checkIcon */
+/*Pour caché le texte avec le checkIcon */
 .cardUnitaire__description > .description__text > * {
   white-space: nowrap;
   overflow: hidden;
@@ -522,7 +523,7 @@ body {
   max-width: 100%;
 }
 
-/*Propriété du contenus des cards*/
+/*Contenu des cards*/
 .description__text > h2 {
   font-size: 20px;
   margin-bottom: 8px;
@@ -544,7 +545,7 @@ body {
   font-weight: bold;
 }
 
-/*Le check*/
+/*Le checkIcon*/
 .cardUnitaire__checkIcon {
   width: 7rem;
   background: #99E2D0;

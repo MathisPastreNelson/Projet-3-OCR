@@ -13,6 +13,8 @@
     color: $grisProfond;
 }
 
+/*Image et titre du restaurants*/
+
 .imgPresentationBox {
     position: relative;
     width: 100%;
@@ -62,7 +64,7 @@
 
 }
 
-.coeur:focus {
+.coeur:hover {
 
     background: linear-gradient(0deg, $secondary-color, $primary-color 100%);
     color: transparent;

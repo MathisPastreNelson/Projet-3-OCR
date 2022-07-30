@@ -44,7 +44,7 @@ body {
     border-radius: 15px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 15px 15px -12px, rgba(0, 0, 0, 0.3) 0px 15px 6px -18px;
     margin-bottom: 25px;
-    /*Pour caché le Check*/
+    /*Pour caché le checkIcon de la carte*/
     overflow: hidden;
     cursor: pointer;
 
@@ -65,7 +65,7 @@ body {
     margin-left: 1rem;
 }
 
-/*Le texte se coupe ici avec le checkIcon */
+/*Pour caché le texte avec le checkIcon */
 
 .cardUnitaire__description>.description__text>* {
     white-space: nowrap;
@@ -74,7 +74,7 @@ body {
     max-width: 100%;
 }
 
-/*Propriété du contenus des cards*/
+/*Contenu des cards*/
 
 .description__text>h2 {
     font-size: 20px;
@@ -98,7 +98,7 @@ body {
     font-weight: bold;
 }
 
-/*Le check*/
+/*Le checkIcon*/
 
 .cardUnitaire__checkIcon {
     width: 7rem;
@@ -148,7 +148,6 @@ body {
     font-size: 15px;
     cursor: pointer;
     transition: 500ms;
-
 }
 
 .exploreButton:hover {
