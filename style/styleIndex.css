@@ -94,8 +94,8 @@ footer > div > a {
 }
 /*Creation du loader*/
 .chargement {
-  -webkit-animation: spin 3s linear;
-  animation: spin 3s linear;
+  -webkit-animation: spin 2.5s linear;
+  animation: spin 2.5s linear;
   opacity: 0;
   border: 30px solid #FF79DA;
   width: 100px;
@@ -142,8 +142,8 @@ footer > div > a {
 }
 /*disparition du body pendant le loader*/
 .Disparitionbox {
-  -webkit-animation: fadein 3.2s;
-          animation: fadein 3.2s;
+  -webkit-animation: fadein 3s;
+          animation: fadein 3s;
 }
 
 @-webkit-keyframes fadein {
@@ -382,7 +382,7 @@ footer > div > a {
   color: white;
   text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
   margin-right: 5%;
-  transition: 300ms;
+  transition: 500ms;
   border: none;
   background-color: transparent;
 }

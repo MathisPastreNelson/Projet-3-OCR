@@ -1,8 +1,8 @@
 /*Creation du loader*/
 .chargement {
-    -webkit-animation: spin 3s linear;
-    -o-animation: spin 3s linear;
-    animation: spin 3s linear;
+    -webkit-animation: spin 2.5s linear;
+    -o-animation: spin 2.5s linear;
+    animation: spin 2.5s linear;
     opacity: 0;
     border: 30px solid $secondary-color;
     width: 100px;
@@ -59,7 +59,7 @@
 /*disparition du body pendant le loader*/
 
 .Disparitionbox {
-    animation: fadein 3.2s;
+    animation: fadein 3s;
 }
 
 @keyframes fadein {
